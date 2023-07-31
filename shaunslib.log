@@ -1,0 +1,1940 @@
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Jul 27 14:51:36 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x125cad0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/ec2-user/shaunslib/./wsgi.py", line 1, in <module>
+    from shaunslib import app
+ModuleNotFoundError: No module named 'shaunslib'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3427)
+spawned uWSGI worker 1 (pid: 3429, cores: 1)
+spawned uWSGI worker 2 (pid: 3430, cores: 1)
+spawned uWSGI worker 3 (pid: 3431, cores: 1)
+spawned uWSGI worker 4 (pid: 3432, cores: 1)
+spawned uWSGI worker 5 (pid: 3433, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Jul 27 15:02:21 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2126ad0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2126ad0 pid: 3821 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3821)
+spawned uWSGI worker 1 (pid: 3822, cores: 1)
+spawned uWSGI worker 2 (pid: 3823, cores: 1)
+spawned uWSGI worker 3 (pid: 3824, cores: 1)
+spawned uWSGI worker 4 (pid: 3825, cores: 1)
+spawned uWSGI worker 5 (pid: 3826, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Jul 27 15:07:21 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x6c4ad0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x6c4ad0 pid: 4024 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4024)
+spawned uWSGI worker 1 (pid: 4026, cores: 1)
+spawned uWSGI worker 2 (pid: 4027, cores: 1)
+spawned uWSGI worker 3 (pid: 4028, cores: 1)
+spawned uWSGI worker 4 (pid: 4029, cores: 1)
+spawned uWSGI worker 5 (pid: 4030, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Jul 27 15:43:32 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8b4ea0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8b4ea0 pid: 5689 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5689)
+spawned uWSGI worker 1 (pid: 5690, cores: 1)
+spawned uWSGI worker 2 (pid: 5691, cores: 1)
+spawned uWSGI worker 3 (pid: 5692, cores: 1)
+spawned uWSGI worker 4 (pid: 5693, cores: 1)
+spawned uWSGI worker 5 (pid: 5694, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:09:56 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 6
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11b8c10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11b8c10 pid: 4569 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4569)
+spawned uWSGI worker 1 (pid: 4570, cores: 1)
+spawned uWSGI worker 2 (pid: 4571, cores: 1)
+spawned uWSGI worker 3 (pid: 4572, cores: 1)
+spawned uWSGI worker 4 (pid: 4573, cores: 1)
+spawned uWSGI worker 5 (pid: 4574, cores: 1)
+Sun Jul 30 10:10:43 2023 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Sun Jul 30 10:10:43 2023 - *** worker 2 suspended ***
+Sun Jul 30 10:10:43 2023 - *** worker 1 suspended ***
+Sun Jul 30 10:10:43 2023 - *** worker 3 suspended ***
+Sun Jul 30 10:10:43 2023 - *** worker 4 suspended ***
+Sun Jul 30 10:10:43 2023 - *** worker 5 suspended ***
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:11:30 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20a8bf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20a8bf0 pid: 4696 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4696)
+spawned uWSGI worker 1 (pid: 4697, cores: 1)
+spawned uWSGI worker 2 (pid: 4698, cores: 1)
+spawned uWSGI worker 3 (pid: 4699, cores: 1)
+spawned uWSGI worker 4 (pid: 4700, cores: 1)
+spawned uWSGI worker 5 (pid: 4701, cores: 1)
+Sun Jul 30 10:12:52 2023 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Sun Jul 30 10:12:52 2023 - *** worker 1 suspended ***
+Sun Jul 30 10:12:52 2023 - *** worker 2 suspended ***
+Sun Jul 30 10:12:52 2023 - *** worker 3 suspended ***
+Sun Jul 30 10:12:52 2023 - *** worker 4 suspended ***
+Sun Jul 30 10:12:52 2023 - *** worker 5 suspended ***
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:13:45 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fd4bf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fd4bf0 pid: 4811 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4811)
+spawned uWSGI worker 1 (pid: 4812, cores: 1)
+spawned uWSGI worker 2 (pid: 4813, cores: 1)
+spawned uWSGI worker 3 (pid: 4814, cores: 1)
+spawned uWSGI worker 4 (pid: 4815, cores: 1)
+spawned uWSGI worker 5 (pid: 4816, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:14:59 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 6
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1cb6bf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1cb6bf0 pid: 4877 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4877)
+spawned uWSGI worker 1 (pid: 4878, cores: 1)
+spawned uWSGI worker 2 (pid: 4879, cores: 1)
+spawned uWSGI worker 3 (pid: 4880, cores: 1)
+spawned uWSGI worker 4 (pid: 4881, cores: 1)
+spawned uWSGI worker 5 (pid: 4882, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:53:15 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xdcabc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xdcabc0 pid: 4114 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4114)
+spawned uWSGI worker 1 (pid: 4115, cores: 1)
+spawned uWSGI worker 2 (pid: 4116, cores: 1)
+spawned uWSGI worker 3 (pid: 4117, cores: 1)
+spawned uWSGI worker 4 (pid: 4118, cores: 1)
+spawned uWSGI worker 5 (pid: 4119, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:54:30 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa74bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa74bc0 pid: 4207 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4207)
+spawned uWSGI worker 1 (pid: 4208, cores: 1)
+spawned uWSGI worker 2 (pid: 4209, cores: 1)
+spawned uWSGI worker 3 (pid: 4210, cores: 1)
+spawned uWSGI worker 4 (pid: 4211, cores: 1)
+spawned uWSGI worker 5 (pid: 4212, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 10:59:54 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11c6bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x11c6bc0 pid: 4421 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4421)
+spawned uWSGI worker 1 (pid: 4450, cores: 1)
+spawned uWSGI worker 2 (pid: 4451, cores: 1)
+spawned uWSGI worker 3 (pid: 4452, cores: 1)
+spawned uWSGI worker 4 (pid: 4453, cores: 1)
+spawned uWSGI worker 5 (pid: 4454, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:03:13 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb2bbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xb2bbc0 pid: 4637 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4637)
+spawned uWSGI worker 1 (pid: 4638, cores: 1)
+spawned uWSGI worker 2 (pid: 4639, cores: 1)
+spawned uWSGI worker 3 (pid: 4640, cores: 1)
+spawned uWSGI worker 4 (pid: 4641, cores: 1)
+spawned uWSGI worker 5 (pid: 4642, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:08:44 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x815bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x815bc0 pid: 4839 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4839)
+spawned uWSGI worker 1 (pid: 4841, cores: 1)
+spawned uWSGI worker 2 (pid: 4842, cores: 1)
+spawned uWSGI worker 3 (pid: 4843, cores: 1)
+spawned uWSGI worker 4 (pid: 4844, cores: 1)
+spawned uWSGI worker 5 (pid: 4845, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:21:10 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x114dbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x114dbc0 pid: 5448 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5448)
+spawned uWSGI worker 1 (pid: 5449, cores: 1)
+spawned uWSGI worker 2 (pid: 5450, cores: 1)
+spawned uWSGI worker 3 (pid: 5451, cores: 1)
+spawned uWSGI worker 4 (pid: 5452, cores: 1)
+spawned uWSGI worker 5 (pid: 5453, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:21:23 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x129bbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x129bbc0 pid: 5469 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5469)
+spawned uWSGI worker 1 (pid: 5470, cores: 1)
+spawned uWSGI worker 2 (pid: 5471, cores: 1)
+spawned uWSGI worker 3 (pid: 5472, cores: 1)
+spawned uWSGI worker 4 (pid: 5473, cores: 1)
+spawned uWSGI worker 5 (pid: 5474, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:28:44 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x163bbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x163bbc0 pid: 5800 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5800)
+spawned uWSGI worker 1 (pid: 5801, cores: 1)
+spawned uWSGI worker 2 (pid: 5802, cores: 1)
+spawned uWSGI worker 3 (pid: 5803, cores: 1)
+spawned uWSGI worker 4 (pid: 5804, cores: 1)
+spawned uWSGI worker 5 (pid: 5805, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:34:12 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x211bbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x211bbc0 pid: 6072 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6072)
+spawned uWSGI worker 1 (pid: 6074, cores: 1)
+spawned uWSGI worker 2 (pid: 6075, cores: 1)
+spawned uWSGI worker 3 (pid: 6076, cores: 1)
+spawned uWSGI worker 4 (pid: 6077, cores: 1)
+spawned uWSGI worker 5 (pid: 6078, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:37:07 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf3cbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf3cbc0 pid: 6387 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6387)
+spawned uWSGI worker 1 (pid: 6388, cores: 1)
+spawned uWSGI worker 2 (pid: 6389, cores: 1)
+spawned uWSGI worker 3 (pid: 6390, cores: 1)
+spawned uWSGI worker 4 (pid: 6391, cores: 1)
+spawned uWSGI worker 5 (pid: 6392, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:40:42 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12dbbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x12dbbc0 pid: 6524 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6524)
+spawned uWSGI worker 1 (pid: 6525, cores: 1)
+spawned uWSGI worker 2 (pid: 6526, cores: 1)
+spawned uWSGI worker 3 (pid: 6527, cores: 1)
+spawned uWSGI worker 4 (pid: 6528, cores: 1)
+spawned uWSGI worker 5 (pid: 6529, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:42:01 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x874bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x874bc0 pid: 6614 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6614)
+spawned uWSGI worker 1 (pid: 6615, cores: 1)
+spawned uWSGI worker 2 (pid: 6616, cores: 1)
+spawned uWSGI worker 3 (pid: 6617, cores: 1)
+spawned uWSGI worker 4 (pid: 6618, cores: 1)
+spawned uWSGI worker 5 (pid: 6619, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:43:56 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2519bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2519bc0 pid: 6706 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6706)
+spawned uWSGI worker 1 (pid: 6710, cores: 1)
+spawned uWSGI worker 2 (pid: 6711, cores: 1)
+spawned uWSGI worker 3 (pid: 6712, cores: 1)
+spawned uWSGI worker 4 (pid: 6713, cores: 1)
+spawned uWSGI worker 5 (pid: 6714, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:55:26 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15b1bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15b1bc0 pid: 7154 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7154)
+spawned uWSGI worker 1 (pid: 7156, cores: 1)
+spawned uWSGI worker 2 (pid: 7157, cores: 1)
+spawned uWSGI worker 3 (pid: 7158, cores: 1)
+spawned uWSGI worker 4 (pid: 7159, cores: 1)
+spawned uWSGI worker 5 (pid: 7160, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:58:41 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10a7bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10a7bc0 pid: 7290 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7290)
+spawned uWSGI worker 1 (pid: 7292, cores: 1)
+spawned uWSGI worker 2 (pid: 7293, cores: 1)
+spawned uWSGI worker 3 (pid: 7294, cores: 1)
+spawned uWSGI worker 4 (pid: 7295, cores: 1)
+spawned uWSGI worker 5 (pid: 7296, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 11:59:46 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe17bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe17bc0 pid: 7315 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7315)
+spawned uWSGI worker 1 (pid: 7354, cores: 1)
+spawned uWSGI worker 2 (pid: 7355, cores: 1)
+spawned uWSGI worker 3 (pid: 7356, cores: 1)
+spawned uWSGI worker 4 (pid: 7358, cores: 1)
+spawned uWSGI worker 5 (pid: 7359, cores: 1)
+[pid: 7358|app: 0|req: 1/1] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 11:59:51 2023] GET / => generated 102 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 1/2] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 11:59:52 2023] GET /sw.js => generated 207 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 2/3] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 11:59:53 2023] GET / => generated 102 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7356|app: 0|req: 1/4] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 11:59:54 2023] GET /sw.js => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7358|app: 0|req: 2/5] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 12:03:19 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 3/6] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 12:03:20 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 3/7] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 12:03:20 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 4/8] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 12:03:21 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 4/9] 18.216.201.157 () {38 vars in 536 bytes} [Sun Jul 30 12:14:18 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 5/10] 66.249.69.67 () {38 vars in 539 bytes} [Sun Jul 30 12:16:39 2023] GET /robots.txt => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 5/11] 66.249.69.67 () {42 vars in 813 bytes} [Sun Jul 30 12:16:40 2023] GET /f.atom => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 6/12] 159.223.90.197 () {40 vars in 622 bytes} [Sun Jul 30 12:21:03 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 7/13] 159.223.90.197 () {40 vars in 677 bytes} [Sun Jul 30 12:21:03 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 6/14] 159.223.90.197 () {40 vars in 650 bytes} [Sun Jul 30 12:21:03 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7354|app: 0|req: 1/15] 159.223.90.197 () {40 vars in 622 bytes} [Sun Jul 30 12:21:03 2023] GET / => generated 102 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7356|app: 0|req: 2/16] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:03 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 8/17] 159.223.90.197 () {40 vars in 685 bytes} [Sun Jul 30 12:21:03 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7356|app: 0|req: 3/18] 159.223.90.197 () {40 vars in 697 bytes} [Sun Jul 30 12:21:03 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7359|app: 0|req: 7/19] 159.223.90.197 () {40 vars in 693 bytes} [Sun Jul 30 12:21:03 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7355|app: 0|req: 1/20] 159.223.90.197 () {40 vars in 683 bytes} [Sun Jul 30 12:21:03 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7359|app: 0|req: 8/21] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:03 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7358|app: 0|req: 9/22] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:03 2023] GET //2018/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7356|app: 0|req: 4/23] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:03 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7359|app: 0|req: 9/24] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:03 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7359|app: 0|req: 10/25] 159.223.90.197 () {40 vars in 685 bytes} [Sun Jul 30 12:21:04 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7358|app: 0|req: 10/26] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:04 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7356|app: 0|req: 5/27] 159.223.90.197 () {40 vars in 689 bytes} [Sun Jul 30 12:21:04 2023] GET //media/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7354|app: 0|req: 2/28] 159.223.90.197 () {40 vars in 685 bytes} [Sun Jul 30 12:21:04 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7359|app: 0|req: 11/29] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:04 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7358|app: 0|req: 11/30] 159.223.90.197 () {40 vars in 685 bytes} [Sun Jul 30 12:21:04 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7356|app: 0|req: 6/31] 159.223.90.197 () {40 vars in 687 bytes} [Sun Jul 30 12:21:04 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 12/32] 113.125.140.19 () {40 vars in 626 bytes} [Sun Jul 30 12:22:36 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 13/33] 159.223.211.116 () {42 vars in 720 bytes} [Sun Jul 30 12:55:32 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 14/34] 185.180.143.140 () {36 vars in 503 bytes} [Sun Jul 30 13:04:11 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 15/35] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 13:10:10 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 12/36] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 13:10:11 2023] GET /sw.js => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 16/37] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 13:10:54 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7355|app: 0|req: 2/38] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 13:10:55 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 7358|app: 0|req: 17/39] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 13:13:47 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 13/40] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 13:13:48 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 18/41] 167.172.79.197 () {40 vars in 622 bytes} [Sun Jul 30 13:14:17 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 19/42] 167.172.79.197 () {40 vars in 677 bytes} [Sun Jul 30 13:14:17 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 14/43] 167.172.79.197 () {40 vars in 650 bytes} [Sun Jul 30 13:14:17 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7356|app: 0|req: 7/44] 167.172.79.197 () {40 vars in 622 bytes} [Sun Jul 30 13:14:17 2023] GET / => generated 102 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7354|app: 0|req: 3/45] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:17 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 20/46] 167.172.79.197 () {40 vars in 685 bytes} [Sun Jul 30 13:14:17 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 21/47] 167.172.79.197 () {40 vars in 697 bytes} [Sun Jul 30 13:14:17 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 15/48] 167.172.79.197 () {40 vars in 693 bytes} [Sun Jul 30 13:14:17 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 16/49] 167.172.79.197 () {40 vars in 683 bytes} [Sun Jul 30 13:14:18 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7355|app: 0|req: 3/50] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7354|app: 0|req: 4/51] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //2020/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 17/52] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7355|app: 0|req: 4/53] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7354|app: 0|req: 5/54] 167.172.79.197 () {40 vars in 685 bytes} [Sun Jul 30 13:14:18 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7355|app: 0|req: 5/55] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7354|app: 0|req: 6/56] 167.172.79.197 () {40 vars in 685 bytes} [Sun Jul 30 13:14:18 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 22/57] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 18/58] 167.172.79.197 () {40 vars in 685 bytes} [Sun Jul 30 13:14:18 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7355|app: 0|req: 6/59] 167.172.79.197 () {40 vars in 687 bytes} [Sun Jul 30 13:14:18 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 23/60] 152.58.17.255 () {54 vars in 922 bytes} [Sun Jul 30 13:19:52 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 19/61] 152.58.17.255 () {56 vars in 887 bytes} [Sun Jul 30 13:19:54 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 24/62] 152.58.17.47 () {54 vars in 921 bytes} [Sun Jul 30 13:38:33 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 20/63] 152.58.17.47 () {56 vars in 886 bytes} [Sun Jul 30 13:38:34 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 7358|app: 0|req: 25/64] 152.58.17.47 () {54 vars in 921 bytes} [Sun Jul 30 13:38:36 2023] GET / => generated 102 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 7359|app: 0|req: 21/65] 152.58.17.47 () {56 vars in 886 bytes} [Sun Jul 30 13:38:36 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 13:39:21 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19f6bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19f6bc0 pid: 10337 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10337)
+spawned uWSGI worker 1 (pid: 10340, cores: 1)
+spawned uWSGI worker 2 (pid: 10341, cores: 1)
+spawned uWSGI worker 3 (pid: 10342, cores: 1)
+spawned uWSGI worker 4 (pid: 10343, cores: 1)
+spawned uWSGI worker 5 (pid: 10344, cores: 1)
+[pid: 10341|app: 0|req: 1/1] 152.58.17.47 () {54 vars in 921 bytes} [Sun Jul 30 13:39:29 2023] GET / => generated 126 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 1/2] 152.58.17.47 () {56 vars in 886 bytes} [Sun Jul 30 13:39:30 2023] GET /sw.js => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 2/3] 66.249.75.166 () {38 vars in 544 bytes} [Sun Jul 30 13:46:39 2023] GET /robots.txt => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 1/4] 66.249.75.166 () {42 vars in 806 bytes} [Sun Jul 30 13:46:39 2023] GET / => generated 126 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 3/5] 165.22.237.38 () {36 vars in 496 bytes} [Sun Jul 30 13:48:39 2023] GET / => generated 126 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 4/6] 152.58.17.236 () {56 vars in 887 bytes} [Sun Jul 30 13:54:26 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 5/7] 152.58.17.236 () {54 vars in 922 bytes} [Sun Jul 30 13:54:26 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 6/8] 152.58.17.236 () {56 vars in 887 bytes} [Sun Jul 30 13:54:27 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 7/9] 213.32.122.82 () {34 vars in 463 bytes} [Sun Jul 30 13:57:21 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 8/10] 34.85.141.13 () {40 vars in 620 bytes} [Sun Jul 30 13:59:54 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 9/11] 34.85.141.13 () {40 vars in 675 bytes} [Sun Jul 30 13:59:54 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 2/12] 34.85.141.13 () {40 vars in 648 bytes} [Sun Jul 30 13:59:54 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 1/13] 34.85.141.13 () {40 vars in 620 bytes} [Sun Jul 30 13:59:54 2023] GET / => generated 126 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 10/14] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:55 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10343|app: 0|req: 1/15] 34.85.141.13 () {40 vars in 683 bytes} [Sun Jul 30 13:59:55 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 11/16] 34.85.141.13 () {40 vars in 695 bytes} [Sun Jul 30 13:59:55 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10341|app: 0|req: 2/17] 34.85.141.13 () {40 vars in 691 bytes} [Sun Jul 30 13:59:55 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10344|app: 0|req: 3/18] 34.85.141.13 () {40 vars in 681 bytes} [Sun Jul 30 13:59:56 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10344|app: 0|req: 4/19] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:56 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 12/20] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:56 2023] GET //2018/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10342|app: 0|req: 2/21] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:56 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10341|app: 0|req: 3/22] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:57 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 5/23] 34.85.141.13 () {40 vars in 683 bytes} [Sun Jul 30 13:59:57 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 13/24] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:57 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10341|app: 0|req: 4/25] 34.85.141.13 () {40 vars in 687 bytes} [Sun Jul 30 13:59:57 2023] GET //media/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 14/26] 34.85.141.13 () {40 vars in 683 bytes} [Sun Jul 30 13:59:57 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 6/27] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:58 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 15/28] 34.85.141.13 () {40 vars in 683 bytes} [Sun Jul 30 13:59:58 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 7/29] 34.85.141.13 () {40 vars in 685 bytes} [Sun Jul 30 13:59:58 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 16/30] 31.172.80.202 () {38 vars in 555 bytes} [Sun Jul 30 14:02:16 2023] GET /info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 17/31] 167.71.205.242 () {40 vars in 613 bytes} [Sun Jul 30 14:06:08 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 18/32] 167.71.205.242 () {40 vars in 668 bytes} [Sun Jul 30 14:06:08 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 8/33] 167.71.205.242 () {40 vars in 641 bytes} [Sun Jul 30 14:06:08 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10343|app: 0|req: 2/34] 167.71.205.242 () {40 vars in 613 bytes} [Sun Jul 30 14:06:08 2023] GET / => generated 126 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 19/35] 167.71.205.242 () {40 vars in 678 bytes} [Sun Jul 30 14:06:09 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 9/36] 167.71.205.242 () {40 vars in 676 bytes} [Sun Jul 30 14:06:09 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 20/37] 167.71.205.242 () {40 vars in 688 bytes} [Sun Jul 30 14:06:09 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 10/38] 167.71.205.242 () {40 vars in 684 bytes} [Sun Jul 30 14:06:09 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 3/39] 167.71.205.242 () {40 vars in 674 bytes} [Sun Jul 30 14:06:09 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10341|app: 0|req: 5/40] 167.71.205.242 () {40 vars in 678 bytes} [Sun Jul 30 14:06:09 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 21/41] 167.71.205.242 () {40 vars in 676 bytes} [Sun Jul 30 14:06:09 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 4/42] 167.71.205.242 () {40 vars in 678 bytes} [Sun Jul 30 14:06:09 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10341|app: 0|req: 6/43] 167.71.205.242 () {40 vars in 676 bytes} [Sun Jul 30 14:06:09 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 22/44] 167.71.205.242 () {40 vars in 678 bytes} [Sun Jul 30 14:06:09 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 5/45] 167.71.205.242 () {40 vars in 676 bytes} [Sun Jul 30 14:06:09 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 11/46] 167.71.205.242 () {40 vars in 678 bytes} [Sun Jul 30 14:06:09 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 23/47] 170.64.170.148 () {36 vars in 402 bytes} [Sun Jul 30 14:22:12 2023] GET /t4 => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 24/48] 66.249.69.66 () {42 vars in 811 bytes} [Sun Jul 30 14:47:40 2023] GET /f.rss => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 25/49] 152.58.17.155 () {54 vars in 922 bytes} [Sun Jul 30 14:53:48 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 26/50] 152.58.17.155 () {56 vars in 887 bytes} [Sun Jul 30 14:53:48 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 6/51] 152.58.17.155 () {56 vars in 887 bytes} [Sun Jul 30 14:53:49 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 27/52] 45.79.181.251 () {36 vars in 500 bytes} [Sun Jul 30 15:02:18 2023] GET / => generated 126 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10340|app: 0|req: 28/53] 20.166.80.155 () {38 vars in 556 bytes} [Sun Jul 30 15:46:23 2023] GET /.git/config => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 29/54] 66.249.69.67 () {40 vars in 575 bytes} [Sun Jul 30 16:15:14 2023] GET /sitemap.website.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10340|app: 0|req: 30/55] 152.58.17.221 () {54 vars in 922 bytes} [Sun Jul 30 16:15:28 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10342|app: 0|req: 7/56] 152.58.17.221 () {56 vars in 887 bytes} [Sun Jul 30 16:15:29 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 10344|app: 0|req: 12/57] 152.58.17.221 () {54 vars in 922 bytes} [Sun Jul 30 16:15:34 2023] GET / => generated 126 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 10343|app: 0|req: 3/58] 152.58.17.221 () {56 vars in 887 bytes} [Sun Jul 30 16:15:35 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 16:39:49 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23fcbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x23fcbc0 pid: 26302 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26302)
+spawned uWSGI worker 1 (pid: 26305, cores: 1)
+spawned uWSGI worker 2 (pid: 26306, cores: 1)
+spawned uWSGI worker 3 (pid: 26307, cores: 1)
+spawned uWSGI worker 4 (pid: 26308, cores: 1)
+spawned uWSGI worker 5 (pid: 26309, cores: 1)
+[pid: 26306|app: 0|req: 1/1] 152.58.17.172 () {54 vars in 922 bytes} [Sun Jul 30 16:39:56 2023] GET / => generated 208 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26305|app: 0|req: 1/2] 152.58.17.172 () {52 vars in 879 bytes} [Sun Jul 30 16:39:56 2023] GET /static/favicon.ico => generated 4286 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 26309|app: 0|req: 1/3] 152.58.17.172 () {56 vars in 887 bytes} [Sun Jul 30 16:39:57 2023] GET /sw.js => generated 207 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 26305|app: 0|req: 2/4] 152.58.31.100 () {56 vars in 887 bytes} [Sun Jul 30 16:57:18 2023] GET /sw.js => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26309|app: 0|req: 2/5] 152.58.31.100 () {54 vars in 922 bytes} [Sun Jul 30 16:57:18 2023] GET / => generated 208 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 3/6] 152.58.31.100 () {56 vars in 887 bytes} [Sun Jul 30 16:57:19 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 4/7] 152.58.31.100 () {54 vars in 922 bytes} [Sun Jul 30 17:44:16 2023] GET / => generated 208 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26309|app: 0|req: 3/8] 152.58.31.100 () {56 vars in 887 bytes} [Sun Jul 30 17:44:17 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 5/9] 45.156.129.12 () {36 vars in 501 bytes} [Sun Jul 30 17:51:48 2023] GET / => generated 208 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 6/10] 66.249.69.66 () {40 vars in 630 bytes} [Sun Jul 30 18:16:39 2023] GET / => generated 208 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 7/11] 66.249.69.66 () {40 vars in 537 bytes} [Sun Jul 30 18:16:45 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26308|app: 0|req: 1/12] 66.249.69.66 () {40 vars in 663 bytes} [Sun Jul 30 18:16:45 2023] GET / => generated 208 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 8/13] 66.249.69.66 () {40 vars in 506 bytes} [Sun Jul 30 18:16:46 2023] GET /favicon.ico => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 26309|app: 0|req: 4/14] 66.249.69.66 () {40 vars in 520 bytes} [Sun Jul 30 18:16:47 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 26305|app: 0|req: 9/15] 165.22.251.130 () {38 vars in 514 bytes} [Sun Jul 30 18:19:20 2023] GET /.env => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 10/16] 165.22.251.130 () {38 vars in 528 bytes} [Sun Jul 30 18:19:21 2023] GET /wp-content/ => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 11/17] 140.246.164.95 () {40 vars in 626 bytes} [Sun Jul 30 18:21:59 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 12/18] 185.180.143.141 () {36 vars in 503 bytes} [Sun Jul 30 18:45:24 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 13/19] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 19:08:24 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26309|app: 0|req: 5/20] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 19:08:25 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 14/21] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 19:13:01 2023] GET / => generated 208 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26309|app: 0|req: 6/22] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 19:13:02 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 15/23] 149.28.198.41 () {38 vars in 584 bytes} [Sun Jul 30 19:50:56 2023] GET /.git/config => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 16/24] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 20:07:08 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26309|app: 0|req: 7/25] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 20:07:09 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 17/26] 31.220.94.237 () {34 vars in 436 bytes} [Sun Jul 30 20:39:19 2023] GET /.vscode/sftp.json => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 18/27] 54.210.94.93 () {38 vars in 533 bytes} [Sun Jul 30 20:57:30 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 26305|app: 0|req: 19/28] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:00:44 2023] GET / => generated 208 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26309|app: 0|req: 8/29] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:00:45 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 21:03:40 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1796bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1796bc0 pid: 36464 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36464)
+spawned uWSGI worker 1 (pid: 36465, cores: 1)
+spawned uWSGI worker 2 (pid: 36466, cores: 1)
+spawned uWSGI worker 3 (pid: 36467, cores: 1)
+spawned uWSGI worker 4 (pid: 36468, cores: 1)
+spawned uWSGI worker 5 (pid: 36469, cores: 1)
+[pid: 36466|app: 0|req: 1/1] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:03:45 2023] GET / => generated 717 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 1/2] 202.91.80.214 () {52 vars in 868 bytes} [Sun Jul 30 21:03:45 2023] GET /static/style.css => generated 905 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36468|app: 0|req: 1/3] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:03:45 2023] GET /static/yuki_boi.png => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36466|app: 0|req: 2/4] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:03:46 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36465|app: 0|req: 2/5] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:06:07 2023] GET / => generated 717 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36469|app: 0|req: 1/6] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:06:07 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36466|app: 0|req: 3/7] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:06:07 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 3/8] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:06:08 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 4/9] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36466|app: 0|req: 4/10] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36468|app: 0|req: 2/11] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36469|app: 0|req: 2/12] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36467|app: 0|req: 1/13] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 5/14] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 6/15] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 7/16] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 8/17] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36469|app: 0|req: 3/18] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:34 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 9/19] 202.91.80.214 () {48 vars in 640 bytes} [Sun Jul 30 21:06:35 2023] GET / => generated 717 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 36468|app: 0|req: 3/20] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:06:35 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36465|app: 0|req: 10/21] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:06:37 2023] GET / => generated 717 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 36469|app: 0|req: 4/22] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36468|app: 0|req: 4/23] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:06:37 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36465|app: 0|req: 11/24] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36466|app: 0|req: 5/25] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36468|app: 0|req: 5/26] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36469|app: 0|req: 5/27] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 12/28] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36466|app: 0|req: 6/29] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36468|app: 0|req: 6/30] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36467|app: 0|req: 2/31] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36469|app: 0|req: 6/32] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 13/33] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:06:37 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36466|app: 0|req: 7/34] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:06:38 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36465|app: 0|req: 14/35] 180.149.19.92 () {54 vars in 927 bytes} [Sun Jul 30 21:11:09 2023] GET / => generated 717 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 36469|app: 0|req: 7/36] 180.149.19.92 () {52 vars in 823 bytes} [Sun Jul 30 21:11:09 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 15/37] 180.149.19.92 () {52 vars in 875 bytes} [Sun Jul 30 21:11:09 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36465|app: 0|req: 16/38] 168.151.135.214 () {54 vars in 929 bytes} [Sun Jul 30 21:11:21 2023] GET / => generated 717 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 36469|app: 0|req: 8/39] 168.151.135.214 () {52 vars in 825 bytes} [Sun Jul 30 21:11:21 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (1 switches on core 0)
+[pid: 36465|app: 0|req: 17/40] 168.151.135.214 () {52 vars in 877 bytes} [Sun Jul 30 21:11:22 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 21:14:15 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ba4bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ba4bc0 pid: 36837 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36837)
+spawned uWSGI worker 1 (pid: 36840, cores: 1)
+spawned uWSGI worker 2 (pid: 36841, cores: 1)
+spawned uWSGI worker 3 (pid: 36842, cores: 1)
+spawned uWSGI worker 4 (pid: 36843, cores: 1)
+spawned uWSGI worker 5 (pid: 36844, cores: 1)
+[pid: 36841|app: 0|req: 1/1] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:14:17 2023] GET / => generated 751 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36840|app: 0|req: 1/2] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:14:17 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36844|app: 0|req: 1/3] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:14:17 2023] GET /static/yuki_boi.png => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36843|app: 0|req: 1/4] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:17 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36841|app: 0|req: 2/5] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:18 2023] GET /static/style.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36840|app: 0|req: 2/6] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:18 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36842|app: 0|req: 1/7] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:14:18 2023] GET /static/style.css => generated 905 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36840|app: 0|req: 3/8] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:14:18 2023] GET /static/style.css => generated 905 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36840|app: 0|req: 4/9] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:14:18 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36844|app: 0|req: 2/10] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:14:27 2023] GET / => generated 751 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36840|app: 0|req: 5/11] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:14:27 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36841|app: 0|req: 3/12] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:14:27 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36843|app: 0|req: 2/13] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:14:28 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36842|app: 0|req: 2/14] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:31 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36841|app: 0|req: 4/15] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:31 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36843|app: 0|req: 3/16] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:14:33 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36840|app: 0|req: 6/17] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:40 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36842|app: 0|req: 3/18] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:40 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36841|app: 0|req: 5/19] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:14:41 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36843|app: 0|req: 4/20] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:14:43 2023] GET / => generated 751 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36842|app: 0|req: 4/21] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:14:43 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36840|app: 0|req: 7/22] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:14:43 2023] GET /static/yuki_boi.png => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 36841|app: 0|req: 6/23] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:14:43 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36844|app: 0|req: 3/24] 202.91.80.214 () {50 vars in 830 bytes} [Sun Jul 30 21:14:43 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 36842|app: 0|req: 5/25] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:14:44 2023] GET /sw.js => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 21:16:35 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1764bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1764bc0 pid: 36921 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36921)
+spawned uWSGI worker 1 (pid: 36923, cores: 1)
+spawned uWSGI worker 2 (pid: 36924, cores: 1)
+spawned uWSGI worker 3 (pid: 36925, cores: 1)
+spawned uWSGI worker 4 (pid: 36926, cores: 1)
+spawned uWSGI worker 5 (pid: 36927, cores: 1)
+[pid: 36924|app: 0|req: 1/1] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:16:37 2023] GET / => generated 751 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36923|app: 0|req: 1/2] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:16:37 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 36925|app: 0|req: 1/3] 202.91.80.214 () {52 vars in 881 bytes} [Sun Jul 30 21:16:37 2023] GET /static/yuri_boi.png => generated 149148 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 36923|app: 0|req: 2/4] 202.91.80.214 () {54 vars in 941 bytes} [Sun Jul 30 21:16:38 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36927|app: 0|req: 1/5] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:16:38 2023] GET /sw.js => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 36923|app: 0|req: 3/6] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:17:53 2023] GET / => generated 369 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 36925|app: 0|req: 2/7] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:17:53 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 36925|app: 0|req: 3/8] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:17:54 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 21:18:04 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5b1bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5b1bc0 pid: 36998 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36998)
+spawned uWSGI worker 1 (pid: 37000, cores: 1)
+spawned uWSGI worker 2 (pid: 37001, cores: 1)
+spawned uWSGI worker 3 (pid: 37002, cores: 1)
+spawned uWSGI worker 4 (pid: 37003, cores: 1)
+spawned uWSGI worker 5 (pid: 37004, cores: 1)
+[pid: 37001|app: 0|req: 1/1] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:18:05 2023] GET / => generated 369 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37000|app: 0|req: 1/2] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:18:05 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 37003|app: 0|req: 1/3] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:18:06 2023] GET /sw.js => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Jul 30 21:20:42 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2089bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2089bc0 pid: 37077 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37077)
+spawned uWSGI worker 1 (pid: 37078, cores: 1)
+spawned uWSGI worker 2 (pid: 37079, cores: 1)
+spawned uWSGI worker 3 (pid: 37080, cores: 1)
+spawned uWSGI worker 4 (pid: 37081, cores: 1)
+spawned uWSGI worker 5 (pid: 37082, cores: 1)
+[pid: 37079|app: 0|req: 1/1] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:20:44 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37078|app: 0|req: 1/2] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:20:44 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 37081|app: 0|req: 1/3] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:20:45 2023] GET /sw.js => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 37078|app: 0|req: 2/4] 202.91.80.214 () {48 vars in 736 bytes} [Sun Jul 30 21:21:47 2023] GET / => generated 328 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 37082|app: 0|req: 1/5] 202.91.80.214 () {48 vars in 701 bytes} [Sun Jul 30 21:21:47 2023] GET /static/style.css => generated 905 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 37078|app: 0|req: 3/6] 202.91.80.214 () {48 vars in 714 bytes} [Sun Jul 30 21:21:47 2023] GET /static/yuri_boi.png => generated 149148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 37078|app: 0|req: 4/7] 202.91.80.214 () {46 vars in 645 bytes} [Sun Jul 30 21:21:47 2023] GET /static/favicon.ico => generated 4286 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 37078|app: 0|req: 5/8] 202.91.80.214 () {48 vars in 736 bytes} [Sun Jul 30 21:21:49 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37080|app: 0|req: 1/9] 202.91.80.214 () {52 vars in 812 bytes} [Sun Jul 30 21:21:50 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 37078|app: 0|req: 6/10] 202.91.80.214 () {52 vars in 829 bytes} [Sun Jul 30 21:21:50 2023] GET /static/yuri_boi.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 37078|app: 0|req: 7/11] 202.91.80.214 () {54 vars in 922 bytes} [Sun Jul 30 21:24:58 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 37082|app: 0|req: 2/12] 202.91.80.214 () {56 vars in 979 bytes} [Sun Jul 30 21:24:58 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 37081|app: 0|req: 2/13] 202.91.80.214 () {56 vars in 887 bytes} [Sun Jul 30 21:24:59 2023] GET /sw.js => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 05:50:50 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1560bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1560bc0 pid: 1963 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1963)
+spawned uWSGI worker 1 (pid: 2066, cores: 1)
+spawned uWSGI worker 2 (pid: 2067, cores: 1)
+spawned uWSGI worker 3 (pid: 2068, cores: 1)
+spawned uWSGI worker 4 (pid: 2069, cores: 1)
+spawned uWSGI worker 5 (pid: 2070, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 05:52:28 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1107bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1107bc0 pid: 2643 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2643)
+spawned uWSGI worker 1 (pid: 2644, cores: 1)
+spawned uWSGI worker 2 (pid: 2645, cores: 1)
+spawned uWSGI worker 3 (pid: 2646, cores: 1)
+spawned uWSGI worker 4 (pid: 2647, cores: 1)
+spawned uWSGI worker 5 (pid: 2648, cores: 1)
+[pid: 2644|app: 0|req: 1/1] 34.78.6.216 () {44 vars in 574 bytes} [Mon Jul 31 05:56:32 2023] GET / => generated 328 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 2/2] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 06:04:28 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 1/3] 116.197.155.254 () {50 vars in 727 bytes} [Mon Jul 31 06:04:28 2023] GET /static/style.css => generated 905 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 2644|app: 0|req: 3/4] 116.197.155.254 () {50 vars in 740 bytes} [Mon Jul 31 06:04:28 2023] GET /static/yuri_boi.png => generated 149148 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 2648|app: 0|req: 1/5] 116.197.155.254 () {50 vars in 738 bytes} [Mon Jul 31 06:04:28 2023] GET /static/favicon.ico => generated 4286 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 2644|app: 0|req: 4/6] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 06:39:51 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 2/7] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 06:39:51 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 5/8] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 06:39:51 2023] GET /static/yuri_boi.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 6/9] 128.199.95.249 () {40 vars in 622 bytes} [Mon Jul 31 06:56:24 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 7/10] 128.199.95.249 () {40 vars in 677 bytes} [Mon Jul 31 06:56:24 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 3/11] 128.199.95.249 () {40 vars in 650 bytes} [Mon Jul 31 06:56:24 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 4/12] 128.199.95.249 () {40 vars in 622 bytes} [Mon Jul 31 06:56:24 2023] GET / => generated 328 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 2/13] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:24 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 8/14] 128.199.95.249 () {40 vars in 685 bytes} [Mon Jul 31 06:56:24 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 3/15] 128.199.95.249 () {40 vars in 697 bytes} [Mon Jul 31 06:56:25 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2647|app: 0|req: 1/16] 128.199.95.249 () {40 vars in 693 bytes} [Mon Jul 31 06:56:25 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 9/17] 128.199.95.249 () {40 vars in 683 bytes} [Mon Jul 31 06:56:25 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 1/18] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 10/19] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //2018/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 4/20] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 5/21] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 5/22] 128.199.95.249 () {40 vars in 685 bytes} [Mon Jul 31 06:56:25 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 6/23] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 11/24] 128.199.95.249 () {40 vars in 689 bytes} [Mon Jul 31 06:56:25 2023] GET //media/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 2/25] 128.199.95.249 () {40 vars in 685 bytes} [Mon Jul 31 06:56:25 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 7/26] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 12/27] 128.199.95.249 () {40 vars in 685 bytes} [Mon Jul 31 06:56:25 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 3/28] 128.199.95.249 () {40 vars in 687 bytes} [Mon Jul 31 06:56:25 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 13/29] 34.145.69.202 () {30 vars in 323 bytes} [Mon Jul 31 07:28:42 2023] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.0 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 14/30] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 08:54:05 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 8/31] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 08:54:05 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 2647|app: 0|req: 4/32] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 08:54:05 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 15/33] 45.79.128.205 () {36 vars in 499 bytes} [Mon Jul 31 09:02:22 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 16/34] 178.128.43.96 () {40 vars in 551 bytes} [Mon Jul 31 09:35:11 2023] GET /php.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 5/35] 178.128.43.96 () {40 vars in 565 bytes} [Mon Jul 31 09:35:12 2023] GET /phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 9/36] 178.128.43.96 () {40 vars in 558 bytes} [Mon Jul 31 09:35:12 2023] GET /info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 2/37] 178.128.43.96 () {40 vars in 578 bytes} [Mon Jul 31 09:35:13 2023] GET /infophp.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 6/38] 178.128.43.96 () {40 vars in 578 bytes} [Mon Jul 31 09:35:13 2023] GET /php_info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 17/39] 178.128.43.96 () {40 vars in 554 bytes} [Mon Jul 31 09:35:13 2023] GET /test.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 6/40] 178.128.43.96 () {40 vars in 552 bytes} [Mon Jul 31 09:35:14 2023] GET /i.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 10/41] 178.128.43.96 () {40 vars in 563 bytes} [Mon Jul 31 09:35:14 2023] GET /asdf.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 7/42] 178.128.43.96 () {40 vars in 572 bytes} [Mon Jul 31 09:35:15 2023] GET /pinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 3/43] 178.128.43.96 () {40 vars in 578 bytes} [Mon Jul 31 09:35:15 2023] GET /phpversion.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 18/44] 178.128.43.96 () {40 vars in 556 bytes} [Mon Jul 31 09:35:15 2023] GET /time.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 7/45] 178.128.43.96 () {40 vars in 560 bytes} [Mon Jul 31 09:35:16 2023] GET /index.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 11/46] 178.128.43.96 () {40 vars in 572 bytes} [Mon Jul 31 09:35:16 2023] GET /temp.php => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 8/47] 178.128.43.96 () {40 vars in 568 bytes} [Mon Jul 31 09:35:17 2023] GET /old_phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 4/48] 178.128.43.96 () {40 vars in 567 bytes} [Mon Jul 31 09:35:17 2023] GET /infos.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 19/49] 178.128.43.96 () {40 vars in 581 bytes} [Mon Jul 31 09:35:17 2023] GET /linusadmin-phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 8/50] 178.128.43.96 () {40 vars in 566 bytes} [Mon Jul 31 09:35:18 2023] GET /php-info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 9/51] 178.128.43.96 () {40 vars in 582 bytes} [Mon Jul 31 09:35:18 2023] GET /dashboard/phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 5/52] 178.128.43.96 () {40 vars in 584 bytes} [Mon Jul 31 09:35:19 2023] GET /_profiler/phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 9/53] 178.128.43.96 () {40 vars in 576 bytes} [Mon Jul 31 09:35:19 2023] GET /_profiler/phpinfo => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 20/54] 178.128.43.96 () {40 vars in 562 bytes} [Mon Jul 31 09:35:19 2023] GET /?phpinfo=1 => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 21/55] 3.92.91.238 () {38 vars in 560 bytes} [Mon Jul 31 09:55:53 2023] GET /_profiler/phpinfo => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 12/56] 3.92.91.238 () {38 vars in 690 bytes} [Mon Jul 31 09:55:55 2023] GET /yuuki?pp=env => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 10/57] 3.92.91.238 () {38 vars in 534 bytes} [Mon Jul 31 09:55:56 2023] GET /.env => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 10/58] 3.92.91.238 () {42 vars in 641 bytes} [Mon Jul 31 09:55:57 2023] POST / => generated 153 bytes in 0 msecs (HTTP/1.1 405) 3 headers in 123 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 22/59] 13.59.26.94 () {38 vars in 578 bytes} [Mon Jul 31 10:37:23 2023] GET /phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 11/60] 13.59.26.94 () {38 vars in 560 bytes} [Mon Jul 31 10:37:23 2023] GET /php.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 6/61] 13.59.26.94 () {38 vars in 595 bytes} [Mon Jul 31 10:37:23 2023] GET /info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 13/62] 13.59.26.94 () {38 vars in 560 bytes} [Mon Jul 31 10:37:23 2023] GET /infophp.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 11/63] 13.59.26.94 () {38 vars in 508 bytes} [Mon Jul 31 10:37:23 2023] GET /i.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 12/64] 13.59.26.94 () {38 vars in 507 bytes} [Mon Jul 31 10:37:23 2023] GET /test.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 12/65] 13.59.26.94 () {38 vars in 520 bytes} [Mon Jul 31 10:37:23 2023] GET /asdf.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 7/66] 13.59.26.94 () {38 vars in 525 bytes} [Mon Jul 31 10:37:23 2023] GET /php_info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 23/67] 13.59.26.94 () {38 vars in 503 bytes} [Mon Jul 31 10:37:23 2023] GET /pinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 14/68] 13.59.26.94 () {38 vars in 562 bytes} [Mon Jul 31 10:37:23 2023] GET /phpversion.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 13/69] 13.59.26.94 () {38 vars in 539 bytes} [Mon Jul 31 10:37:23 2023] GET /index.php => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 13/70] 13.59.26.94 () {38 vars in 560 bytes} [Mon Jul 31 10:37:23 2023] GET /time.php => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 8/71] 13.59.26.94 () {38 vars in 480 bytes} [Mon Jul 31 10:37:24 2023] GET /temp.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 15/72] 13.59.26.94 () {38 vars in 596 bytes} [Mon Jul 31 10:37:24 2023] GET /old_phpinfo.php => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 24/73] 13.59.26.94 () {38 vars in 557 bytes} [Mon Jul 31 10:37:24 2023] GET /infos.php => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 9/74] 13.59.26.94 () {38 vars in 501 bytes} [Mon Jul 31 10:37:24 2023] GET /php-info.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 16/75] 13.59.26.94 () {38 vars in 590 bytes} [Mon Jul 31 10:37:24 2023] GET /dashboard/phpinfo.php => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 25/76] 13.59.26.94 () {38 vars in 625 bytes} [Mon Jul 31 10:37:24 2023] GET /linusadmin-phpinfo.php => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 17/77] 13.59.26.94 () {38 vars in 590 bytes} [Mon Jul 31 10:37:24 2023] GET /_profiler/phpinfo => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 10/78] 13.59.26.94 () {38 vars in 486 bytes} [Mon Jul 31 10:37:24 2023] GET /_profiler/phpinfo.php => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 26/79] 13.59.26.94 () {38 vars in 516 bytes} [Mon Jul 31 10:37:24 2023] GET /?phpinfo=1 => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 27/80] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 11:04:14 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 11/81] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 11:04:14 2023] GET /static/style.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2647|app: 0|req: 14/82] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 11:04:14 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 2645|app: 0|req: 14/83] 116.197.155.254 () {50 vars in 738 bytes} [Mon Jul 31 11:04:14 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 2644|app: 0|req: 28/84] 185.180.143.80 () {36 vars in 501 bytes} [Mon Jul 31 11:43:50 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 29/85] 14.116.157.23 () {40 vars in 625 bytes} [Mon Jul 31 12:24:25 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 30/86] 157.230.251.24 () {40 vars in 622 bytes} [Mon Jul 31 12:25:06 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 15/87] 157.230.251.24 () {40 vars in 677 bytes} [Mon Jul 31 12:25:06 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 12/88] 157.230.251.24 () {40 vars in 650 bytes} [Mon Jul 31 12:25:06 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2647|app: 0|req: 15/89] 157.230.251.24 () {40 vars in 622 bytes} [Mon Jul 31 12:25:06 2023] GET / => generated 328 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 18/90] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:06 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 31/91] 157.230.251.24 () {40 vars in 685 bytes} [Mon Jul 31 12:25:07 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 19/92] 157.230.251.24 () {40 vars in 697 bytes} [Mon Jul 31 12:25:07 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 16/93] 157.230.251.24 () {40 vars in 693 bytes} [Mon Jul 31 12:25:07 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 13/94] 157.230.251.24 () {40 vars in 683 bytes} [Mon Jul 31 12:25:07 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 20/95] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 32/96] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //2020/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 17/97] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 18/98] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 33/99] 157.230.251.24 () {40 vars in 685 bytes} [Mon Jul 31 12:25:07 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 21/100] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 19/101] 157.230.251.24 () {40 vars in 685 bytes} [Mon Jul 31 12:25:07 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 34/102] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2648|app: 0|req: 22/103] 157.230.251.24 () {40 vars in 685 bytes} [Mon Jul 31 12:25:07 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2646|app: 0|req: 14/104] 157.230.251.24 () {40 vars in 687 bytes} [Mon Jul 31 12:25:07 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 35/105] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 12:52:10 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2645|app: 0|req: 20/106] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 12:52:10 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2646|app: 0|req: 15/107] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 12:52:10 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 2644|app: 0|req: 36/108] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 13:49:18 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 16/109] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 13:49:18 2023] GET /static/style.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2645|app: 0|req: 21/110] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 13:49:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+Mon Jul 31 13:49:19 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/favicon.ico (ip 116.197.155.254) !!!
+Mon Jul 31 13:49:19 2023 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /static/favicon.ico (116.197.155.254)
+OSError: write error
+[pid: 2646|app: 0|req: 16/111] 116.197.155.254 () {50 vars in 738 bytes} [Mon Jul 31 13:49:19 2023] GET /static/favicon.ico => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 0 bytes (0 switches on core 0)
+[pid: 2644|app: 0|req: 37/112] 128.14.209.162 () {36 vars in 501 bytes} [Mon Jul 31 14:13:54 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 38/113] 185.180.143.18 () {36 vars in 501 bytes} [Mon Jul 31 15:27:24 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 39/114] 185.180.143.11 () {36 vars in 501 bytes} [Mon Jul 31 15:48:10 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 40/115] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 16:05:47 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 23/116] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 16:05:47 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (1 switches on core 0)
+[pid: 2647|app: 0|req: 17/117] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 16:05:47 2023] GET /static/yuri_boi.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 2644|app: 0|req: 41/118] 106.13.39.240 () {32 vars in 396 bytes} [Mon Jul 31 16:06:06 2023] GET /customer-session?from=drpl => generated 207 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 42/119] 35.185.59.19 () {40 vars in 620 bytes} [Mon Jul 31 16:17:37 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 43/120] 35.185.59.19 () {40 vars in 675 bytes} [Mon Jul 31 16:17:37 2023] GET //wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 24/121] 35.185.59.19 () {40 vars in 648 bytes} [Mon Jul 31 16:17:37 2023] GET //xmlrpc.php?rsd => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 18/122] 35.185.59.19 () {40 vars in 620 bytes} [Mon Jul 31 16:17:38 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 2646|app: 0|req: 17/123] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:38 2023] GET //blog/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2645|app: 0|req: 22/124] 35.185.59.19 () {40 vars in 683 bytes} [Mon Jul 31 16:17:38 2023] GET //web/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 44/125] 35.185.59.19 () {40 vars in 695 bytes} [Mon Jul 31 16:17:38 2023] GET //wordpress/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 25/126] 35.185.59.19 () {40 vars in 691 bytes} [Mon Jul 31 16:17:38 2023] GET //website/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 45/127] 35.185.59.19 () {40 vars in 681 bytes} [Mon Jul 31 16:17:39 2023] GET //wp/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 26/128] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:39 2023] GET //news/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 19/129] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:39 2023] GET //2018/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 46/130] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:39 2023] GET //2019/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 27/131] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:40 2023] GET //shop/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 47/132] 35.185.59.19 () {40 vars in 683 bytes} [Mon Jul 31 16:17:40 2023] GET //wp1/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 20/133] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:40 2023] GET //test/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 48/134] 35.185.59.19 () {40 vars in 687 bytes} [Mon Jul 31 16:17:40 2023] GET //media/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 28/135] 35.185.59.19 () {40 vars in 683 bytes} [Mon Jul 31 16:17:40 2023] GET //wp2/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2647|app: 0|req: 21/136] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:41 2023] GET //site/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2644|app: 0|req: 49/137] 35.185.59.19 () {40 vars in 683 bytes} [Mon Jul 31 16:17:41 2023] GET //cms/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 2648|app: 0|req: 29/138] 35.185.59.19 () {40 vars in 685 bytes} [Mon Jul 31 16:17:41 2023] GET //sito/wp-includes/wlwmanifest.xml => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:19:22 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17bbbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/ec2-user/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/ec2-user/shaunslib/./app.py", line 3, in <module>
+    from flask_sqlalchemy import SQLAlchemy
+ModuleNotFoundError: No module named 'flask_sqlalchemy'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24410)
+spawned uWSGI worker 1 (pid: 24411, cores: 1)
+spawned uWSGI worker 2 (pid: 24412, cores: 1)
+spawned uWSGI worker 3 (pid: 24413, cores: 1)
+spawned uWSGI worker 4 (pid: 24414, cores: 1)
+spawned uWSGI worker 5 (pid: 24415, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 24412|app: -1|req: -1/1] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:19:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24413|app: -1|req: -1/2] 116.197.155.254 () {50 vars in 724 bytes} [Mon Jul 31 17:19:26 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24411|app: -1|req: -1/3] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:19:31 2023] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24413|app: -1|req: -1/4] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:19:34 2023] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:21:07 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2215bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/ec2-user/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/ec2-user/shaunslib/./app.py", line 3, in <module>
+    from flask_sqlalchemy import SQLAlchemy
+ModuleNotFoundError: No module named 'flask_sqlalchemy'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24488)
+spawned uWSGI worker 1 (pid: 24491, cores: 1)
+spawned uWSGI worker 2 (pid: 24492, cores: 1)
+spawned uWSGI worker 3 (pid: 24493, cores: 1)
+spawned uWSGI worker 4 (pid: 24494, cores: 1)
+spawned uWSGI worker 5 (pid: 24495, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 24492|app: -1|req: -1/1] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:21:24 2023] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24493|app: -1|req: -1/2] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:21:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24494|app: -1|req: -1/3] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:21:29 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24492|app: -1|req: -1/4] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:21:34 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:28:28 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f6bbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/ec2-user/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/ec2-user/shaunslib/./app.py", line 3, in <module>
+    from flask_sqlalchemy import SQLAlchemy
+ModuleNotFoundError: No module named 'flask_sqlalchemy'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24760)
+spawned uWSGI worker 1 (pid: 24762, cores: 1)
+spawned uWSGI worker 2 (pid: 24763, cores: 1)
+spawned uWSGI worker 3 (pid: 24764, cores: 1)
+spawned uWSGI worker 4 (pid: 24765, cores: 1)
+spawned uWSGI worker 5 (pid: 24766, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 24763|app: -1|req: -1/1] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:28:31 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 24762|app: -1|req: -1/2] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:29:54 2023] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:34:12 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1de8bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1de8bc0 pid: 25093 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25093)
+spawned uWSGI worker 1 (pid: 25094, cores: 1)
+spawned uWSGI worker 2 (pid: 25095, cores: 1)
+spawned uWSGI worker 3 (pid: 25096, cores: 1)
+spawned uWSGI worker 4 (pid: 25097, cores: 1)
+spawned uWSGI worker 5 (pid: 25098, cores: 1)
+[pid: 25095|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:34:15 2023] GET /admin => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 25094|app: 0|req: 1/2] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:34:18 2023] GET / => generated 328 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25098|app: 0|req: 1/3] 116.197.155.254 () {50 vars in 727 bytes} [Mon Jul 31 17:34:19 2023] GET /static/style.css => generated 905 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 25095|app: 0|req: 2/4] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 17:34:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 25094|app: 0|req: 2/5] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:34:24 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25096|app: 0|req: 1/6] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 17:34:24 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 25094|app: 0|req: 3/7] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 17:34:24 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:43:02 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1cecbc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/ec2-user/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/ec2-user/shaunslib/./app.py", line 2, in <module>
+    from admin import app as admin_app
+  File "/home/ec2-user/shaunslib/./admin.py", line 16
+    admin = Admin(app, name='Your App Admin', template_mode='bootstrap3')
+    ^
+IndentationError: expected an indented block
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25403)
+spawned uWSGI worker 1 (pid: 25404, cores: 1)
+spawned uWSGI worker 2 (pid: 25405, cores: 1)
+spawned uWSGI worker 3 (pid: 25406, cores: 1)
+spawned uWSGI worker 4 (pid: 25407, cores: 1)
+spawned uWSGI worker 5 (pid: 25408, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 25405|app: -1|req: -1/1] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:43:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 25406|app: -1|req: -1/2] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:43:10 2023] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ec2-user/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Jul 31 17:44:39 2023] ***
+compiled with version: 11.3.1 20221121 (Red Hat 11.3.1-4) on 27 July 2023 11:18:53
+os: Linux-6.1.38-59.109.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jul 11 23:51:29 UTC 2023
+nodename: ip-172-31-34-157.ap-south-1.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/shaunslib
+detected binary path: /home/ec2-user/shaunslib/yuki/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/shaunslib/app.sock fd 5
+Python version: 3.9.16 (main, Feb 23 2023, 00:00:00)  [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf67bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf67bc0 pid: 25481 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25481)
+spawned uWSGI worker 1 (pid: 25483, cores: 1)
+spawned uWSGI worker 2 (pid: 25484, cores: 1)
+spawned uWSGI worker 3 (pid: 25485, cores: 1)
+spawned uWSGI worker 4 (pid: 25486, cores: 1)
+spawned uWSGI worker 5 (pid: 25487, cores: 1)
+[pid: 25484|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 791 bytes} [Mon Jul 31 17:44:41 2023] GET /admin => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 25485|app: 0|req: 1/2] 116.197.155.254 () {52 vars in 781 bytes} [Mon Jul 31 17:44:45 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25487|app: 0|req: 1/3] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 17:44:45 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 25486|app: 0|req: 1/4] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 17:44:45 2023] GET /static/yuri_boi.png => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 25487|app: 0|req: 2/5] 14.116.184.240 () {40 vars in 626 bytes} [Mon Jul 31 18:23:40 2023] GET / => generated 328 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
