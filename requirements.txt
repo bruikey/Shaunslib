@@ -5,12 +5,10 @@ boto==2.49.0
 brotli==1.0.9
 brotlicffi==1.0.9.2
 ca_certs_locater==1.0
-cffi==1.14.5
 cffi==1.15.1
 colour==0.1.5
 ConfigParser==6.0.0
 contextlib2==21.6.0
-Cython==3.0.0
 dl==0.1.0
 docutils==0.20.1
 email_validator==2.0.0.post2
@@ -23,7 +21,6 @@ geoalchemy2==0.14.1
 HTMLParser==0.0.2
 ipython==8.14.0
 ipywidgets==8.0.7
-jnius==1.1.0
 keyring==24.2.0
 lexicon==2.0.1
 lockfile==0.12.2
@@ -32,12 +29,10 @@ PasteScript==3.3.0
 peewee==3.16.2
 Pillow==10.0.0
 protobuf==4.23.4
-PyICU==2.11
 pymongo==4.4.1
 pytest==7.4.0
 python-dotenv==1.0.0
 python_bcrypt==0.3.2
-PyYAML==5.4.1
 PyYAML==6.0.1
 railroad==0.5.0
 sets==0.3.2
@@ -51,13 +46,11 @@ tablib==3.5.0
 toml==0.10.2
 tornado==6.3.2
 trove_classifiers==2023.7.6
-truststore==0.7.0
 urllib3_secure_extra==0.1.0
 uwsgi==2.0.22
 watchdog==3.0.0
 win32security==2.1.0
 wtf_peewee==3.0.4
 wtforms_appengine==0.1
-xmlrpclib==1.0.1
 zope==5.8.3
 zstandard==0.21.0

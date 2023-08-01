@@ -1938,3 +1938,1924 @@ spawned uWSGI worker 5 (pid: 25487, cores: 1)
 [pid: 25487|app: 0|req: 1/3] 116.197.155.254 () {54 vars in 838 bytes} [Mon Jul 31 17:44:45 2023] GET /static/style.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
 [pid: 25486|app: 0|req: 1/4] 116.197.155.254 () {54 vars in 855 bytes} [Mon Jul 31 17:44:45 2023] GET /static/yuri_boi.png => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
 [pid: 25487|app: 0|req: 2/5] 14.116.184.240 () {40 vars in 626 bytes} [Mon Jul 31 18:23:40 2023] GET / => generated 328 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 14:27:49 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ae51371190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ae51371190 pid: 137513 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 137513)
+spawned uWSGI worker 1 (pid: 137514, cores: 1)
+spawned uWSGI worker 2 (pid: 137515, cores: 1)
+spawned uWSGI worker 3 (pid: 137516, cores: 1)
+spawned uWSGI worker 4 (pid: 137517, cores: 1)
+spawned uWSGI worker 5 (pid: 137518, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 14:32:53 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fe8ed1c190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fe8ed1c190 pid: 137591 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 137591)
+spawned uWSGI worker 1 (pid: 137592, cores: 1)
+spawned uWSGI worker 2 (pid: 137593, cores: 1)
+spawned uWSGI worker 3 (pid: 137594, cores: 1)
+spawned uWSGI worker 4 (pid: 137595, cores: 1)
+spawned uWSGI worker 5 (pid: 137596, cores: 1)
+[pid: 137595|app: 0|req: 1/1] 116.197.155.254 () {42 vars in 650 bytes} [Tue Aug  1 14:33:06 2023] GET / => generated 328 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137595|app: 0|req: 2/2] 116.197.155.254 () {42 vars in 617 bytes} [Tue Aug  1 14:33:06 2023] GET /static/style.css => generated 905 bytes in 13 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 137595|app: 0|req: 3/3] 116.197.155.254 () {42 vars in 630 bytes} [Tue Aug  1 14:33:06 2023] GET /static/yuri_boi.png => generated 149148 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 137596|app: 0|req: 1/4] 116.197.155.254 () {42 vars in 628 bytes} [Tue Aug  1 14:33:06 2023] GET /static/favicon.ico => generated 4286 bytes in 16 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:05:59 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55753a504190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55753a504190 pid: 139056 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139056)
+spawned uWSGI worker 1 (pid: 139058, cores: 1)
+spawned uWSGI worker 2 (pid: 139059, cores: 1)
+spawned uWSGI worker 3 (pid: 139060, cores: 1)
+spawned uWSGI worker 4 (pid: 139061, cores: 1)
+spawned uWSGI worker 5 (pid: 139062, cores: 1)
+[pid: 139059|app: 0|req: 1/1] 171.67.70.229 () {36 vars in 406 bytes} [Tue Aug  1 15:06:13 2023] GET / => generated 328 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:06:22 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559907cc3190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559907cc3190 pid: 139070 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139070)
+spawned uWSGI worker 1 (pid: 139072, cores: 1)
+spawned uWSGI worker 2 (pid: 139073, cores: 1)
+spawned uWSGI worker 3 (pid: 139074, cores: 1)
+spawned uWSGI worker 4 (pid: 139075, cores: 1)
+spawned uWSGI worker 5 (pid: 139076, cores: 1)
+[pid: 139075|app: 0|req: 1/1] 192.3.20.61 () {44 vars in 674 bytes} [Tue Aug  1 15:06:53 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139073|app: 0|req: 1/2] 176.67.82.3 () {44 vars in 747 bytes} [Tue Aug  1 15:06:53 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139075|app: 0|req: 2/3] 154.47.21.148 () {44 vars in 749 bytes} [Tue Aug  1 15:06:53 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139075|app: 0|req: 3/4] 84.247.50.238 () {44 vars in 786 bytes} [Tue Aug  1 15:06:53 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139075|app: 0|req: 4/5] 216.131.116.88 () {44 vars in 684 bytes} [Tue Aug  1 15:06:55 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139075|app: 0|req: 5/6] 192.3.20.61 () {44 vars in 728 bytes} [Tue Aug  1 15:07:02 2023] GET /static/favicon.ico => generated 4286 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 139076|app: 0|req: 1/7] 116.197.155.254 () {54 vars in 815 bytes} [Tue Aug  1 15:07:13 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 139073|app: 0|req: 2/8] 116.197.155.254 () {54 vars in 780 bytes} [Tue Aug  1 15:07:14 2023] GET /static/style.css => generated 905 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 139075|app: 0|req: 6/9] 116.197.155.254 () {54 vars in 793 bytes} [Tue Aug  1 15:07:14 2023] GET /static/yuri_boi.png => generated 149148 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 139075|app: 0|req: 7/10] 176.67.82.3 () {44 vars in 801 bytes} [Tue Aug  1 15:07:16 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 139076|app: 0|req: 2/11] 216.131.116.88 () {44 vars in 738 bytes} [Tue Aug  1 15:07:19 2023] GET /static/favicon.ico => generated 4286 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 139075|app: 0|req: 8/12] 84.247.50.238 () {44 vars in 840 bytes} [Tue Aug  1 15:07:23 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 139075|app: 0|req: 9/13] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:07:47 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139073|app: 0|req: 3/14] 116.197.155.254 () {54 vars in 838 bytes} [Tue Aug  1 15:07:47 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 139073|app: 0|req: 4/15] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:07:47 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 139073|app: 0|req: 5/16] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:07:49 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139075|app: 0|req: 10/17] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:07:49 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 139076|app: 0|req: 3/18] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:07:49 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:07:55 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bd6b8c4190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bd6b8c4190 pid: 139085 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139085)
+spawned uWSGI worker 1 (pid: 139087, cores: 1)
+spawned uWSGI worker 2 (pid: 139088, cores: 1)
+spawned uWSGI worker 3 (pid: 139089, cores: 1)
+spawned uWSGI worker 4 (pid: 139090, cores: 1)
+spawned uWSGI worker 5 (pid: 139091, cores: 1)
+[pid: 139091|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:08:18 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139091|app: 0|req: 2/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:08:18 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 139091|app: 0|req: 3/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:08:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:09:57 2023] GET / => generated 328 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139090|app: 0|req: 2/5] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:09:57 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 3/6] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:09:57 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 4/7] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:09:59 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139090|app: 0|req: 5/8] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:09:59 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 6/9] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:09:59 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 7/10] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:10:06 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139090|app: 0|req: 8/11] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:10:07 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 139090|app: 0|req: 9/12] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:10:07 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:12:52 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5568c10ad190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5568c10ad190 pid: 139120 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139120)
+spawned uWSGI worker 1 (pid: 139123, cores: 1)
+spawned uWSGI worker 2 (pid: 139124, cores: 1)
+spawned uWSGI worker 3 (pid: 139125, cores: 1)
+spawned uWSGI worker 4 (pid: 139126, cores: 1)
+spawned uWSGI worker 5 (pid: 139127, cores: 1)
+[pid: 139126|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:13:21 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 139126|app: 0|req: 2/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:13:21 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 139126|app: 0|req: 3/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:13:21 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:23:05 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560d881e7190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560d881e7190 pid: 139205 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 139205)
+spawned uWSGI worker 1 (pid: 139207, cores: 1)
+spawned uWSGI worker 2 (pid: 139208, cores: 1)
+spawned uWSGI worker 3 (pid: 139209, cores: 1)
+spawned uWSGI worker 4 (pid: 139210, cores: 1)
+spawned uWSGI worker 5 (pid: 139211, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:33:38 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a9ea12f190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a9ea12f190 pid: 140137 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140137)
+spawned uWSGI worker 1 (pid: 140139, cores: 1)
+spawned uWSGI worker 2 (pid: 140140, cores: 1)
+spawned uWSGI worker 3 (pid: 140141, cores: 1)
+spawned uWSGI worker 4 (pid: 140142, cores: 1)
+spawned uWSGI worker 5 (pid: 140143, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:34:13 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5584b4152190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5584b4152190 pid: 140163 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140163)
+spawned uWSGI worker 1 (pid: 140165, cores: 1)
+spawned uWSGI worker 2 (pid: 140166, cores: 1)
+spawned uWSGI worker 3 (pid: 140167, cores: 1)
+spawned uWSGI worker 4 (pid: 140168, cores: 1)
+spawned uWSGI worker 5 (pid: 140169, cores: 1)
+[pid: 140168|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:36:26 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140168|app: 0|req: 2/2] 116.197.155.254 () {50 vars in 727 bytes} [Tue Aug  1 15:36:26 2023] GET /static/style.css => generated 905 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 140169|app: 0|req: 1/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:36:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140165|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:36:28 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140165|app: 0|req: 2/5] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:36:28 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140167|app: 0|req: 1/6] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:36:28 2023] GET /static/yuri_boi.png => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140166|app: 0|req: 1/7] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:36:43 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140166|app: 0|req: 2/8] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:36:43 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140166|app: 0|req: 3/9] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:36:43 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140168|app: 0|req: 3/10] 66.175.213.4 () {36 vars in 498 bytes} [Tue Aug  1 15:37:01 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140168|app: 0|req: 4/11] 51.81.167.146 () {34 vars in 494 bytes} [Tue Aug  1 15:39:52 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140168|app: 0|req: 5/12] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:39:58 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140169|app: 0|req: 2/13] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:39:58 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140167|app: 0|req: 2/14] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:39:58 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 15:45:03 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d7dcad9190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d7dcad9190 pid: 140259 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140259)
+spawned uWSGI worker 1 (pid: 140261, cores: 1)
+spawned uWSGI worker 2 (pid: 140262, cores: 1)
+spawned uWSGI worker 3 (pid: 140263, cores: 1)
+spawned uWSGI worker 4 (pid: 140264, cores: 1)
+spawned uWSGI worker 5 (pid: 140265, cores: 1)
+[pid: 140265|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:45:21 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 2/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:45:21 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140262|app: 0|req: 1/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:45:21 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140261|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 15:45:26 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140262|app: 0|req: 2/5] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 15:45:26 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140263|app: 0|req: 1/6] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 15:45:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140264|app: 0|req: 1/7] 66.249.69.66 () {38 vars in 539 bytes} [Tue Aug  1 15:52:54 2023] GET /robots.txt => generated 207 bytes in 63 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140263|app: 0|req: 2/8] 66.249.69.66 () {44 vars in 916 bytes} [Tue Aug  1 15:52:54 2023] GET /f/heres-a-story-of-all-stories => generated 207 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 2/9] 45.156.129.12 () {36 vars in 500 bytes} [Tue Aug  1 15:56:56 2023] GET / => generated 328 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 3/10] 39.110.218.101 () {38 vars in 579 bytes} [Tue Aug  1 16:05:14 2023] GET /robots.txt => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140261|app: 0|req: 2/11] 39.110.218.101 () {38 vars in 559 bytes} [Tue Aug  1 16:05:14 2023] GET / => generated 328 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 4/12] 185.180.143.190 () {36 vars in 502 bytes} [Tue Aug  1 16:32:57 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 5/13] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:35:32 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 6/14] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:35:32 2023] GET /static/style.css => generated 0 bytes in 18 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140265|app: 0|req: 3/15] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:35:32 2023] GET /static/yuri_boi.png => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140262|app: 0|req: 3/16] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 16:43:30 2023] GET / => generated 328 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 4/17] 116.197.155.254 () {50 vars in 735 bytes} [Tue Aug  1 16:43:30 2023] GET /static/style.css => generated 905 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 140264|app: 0|req: 7/18] 116.197.155.254 () {50 vars in 748 bytes} [Tue Aug  1 16:43:30 2023] GET /static/yuri_boi.png => generated 149148 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 140261|app: 0|req: 3/19] 116.197.155.254 () {50 vars in 746 bytes} [Tue Aug  1 16:43:30 2023] GET /static/favicon.ico => generated 4286 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 140262|app: 0|req: 4/20] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:44:04 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140261|app: 0|req: 4/21] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:44:04 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140264|app: 0|req: 8/22] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:44:04 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 5/23] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:44:06 2023] GET / => generated 328 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140263|app: 0|req: 3/24] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:44:06 2023] GET /static/style.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140262|app: 0|req: 5/25] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:44:06 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140263|app: 0|req: 4/26] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:44:14 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 9/27] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:44:15 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140265|app: 0|req: 6/28] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:44:15 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 7/29] 79.104.53.14 () {34 vars in 384 bytes} [Tue Aug  1 16:44:27 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140262|app: 0|req: 6/30] 79.104.53.14 () {36 vars in 420 bytes} [Tue Aug  1 16:44:28 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 10/31] 104.164.173.87 () {44 vars in 831 bytes} [Tue Aug  1 16:44:33 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 11/32] 37.19.221.139 () {58 vars in 1092 bytes} [Tue Aug  1 16:44:38 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140265|app: 0|req: 8/33] 159.69.91.132 () {34 vars in 389 bytes} [Tue Aug  1 16:44:50 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 12/34] 146.190.98.165 () {32 vars in 349 bytes} [Tue Aug  1 16:44:51 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140265|app: 0|req: 9/35] 146.190.98.165 () {34 vars in 506 bytes} [Tue Aug  1 16:44:52 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140262|app: 0|req: 7/36] 146.190.98.165 () {36 vars in 448 bytes} [Tue Aug  1 16:44:52 2023] GET /.vscode/sftp.json => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 13/37] 146.190.98.165 () {36 vars in 424 bytes} [Tue Aug  1 16:44:53 2023] GET /about => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 14/38] 146.190.98.165 () {36 vars in 475 bytes} [Tue Aug  1 16:44:53 2023] GET /debug/default/view?panel=config => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 10/39] 146.190.98.165 () {38 vars in 467 bytes} [Tue Aug  1 16:44:53 2023] GET /v2/_catalog => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 15/40] 146.190.98.165 () {36 vars in 564 bytes} [Tue Aug  1 16:44:53 2023] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140262|app: 0|req: 8/41] 146.190.98.165 () {36 vars in 440 bytes} [Tue Aug  1 16:44:53 2023] GET /server-status => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140263|app: 0|req: 5/42] 146.190.98.165 () {36 vars in 438 bytes} [Tue Aug  1 16:44:53 2023] GET /login.action => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 16/43] 146.190.98.165 () {38 vars in 537 bytes} [Tue Aug  1 16:44:54 2023] GET /_all_dbs => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140263|app: 0|req: 6/44] 146.190.98.165 () {36 vars in 432 bytes} [Tue Aug  1 16:44:54 2023] GET /.DS_Store => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 17/45] 146.190.98.165 () {36 vars in 422 bytes} [Tue Aug  1 16:44:54 2023] GET /.env => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 18/46] 146.190.98.165 () {36 vars in 436 bytes} [Tue Aug  1 16:44:54 2023] GET /.git/config => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 19/47] 146.190.98.165 () {36 vars in 610 bytes} [Tue Aug  1 16:44:54 2023] GET /s/331313e2931313e23393e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 20/48] 146.190.98.165 () {36 vars in 436 bytes} [Tue Aug  1 16:44:55 2023] GET /config.json => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 140265|app: 0|req: 11/49] 146.190.98.165 () {36 vars in 450 bytes} [Tue Aug  1 16:44:55 2023] GET /telescope/requests => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 21/50] 146.190.98.165 () {36 vars in 463 bytes} [Tue Aug  1 16:44:55 2023] GET /?rest_route=/wp/v2/users/ => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 22/51] 171.67.70.229 () {36 vars in 410 bytes} [Tue Aug  1 16:45:44 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140264|app: 0|req: 23/52] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:48:30 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140265|app: 0|req: 12/53] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:48:30 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140263|app: 0|req: 7/54] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:48:30 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140263|app: 0|req: 8/55] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:48:31 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140265|app: 0|req: 13/56] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:48:31 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 24/57] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:48:31 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140262|app: 0|req: 9/58] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:48:38 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140261|app: 0|req: 5/59] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:48:38 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140264|app: 0|req: 25/60] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:48:38 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 16:50:59 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5568ceb40190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5568ceb40190 pid: 140446 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140446)
+spawned uWSGI worker 1 (pid: 140447, cores: 1)
+spawned uWSGI worker 2 (pid: 140448, cores: 1)
+spawned uWSGI worker 3 (pid: 140449, cores: 1)
+spawned uWSGI worker 4 (pid: 140450, cores: 1)
+spawned uWSGI worker 5 (pid: 140451, cores: 1)
+[pid: 140450|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:51:13 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140449|app: 0|req: 1/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:51:13 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140451|app: 0|req: 1/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:51:13 2023] GET /static/yuri_boi.png => generated 0 bytes in 17 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140448|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:51:18 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140450|app: 0|req: 2/5] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:51:18 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140448|app: 0|req: 2/6] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:51:18 2023] GET /static/yuri_boi.png => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 3/7] 193.118.53.194 () {36 vars in 501 bytes} [Tue Aug  1 16:51:40 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140451|app: 0|req: 2/8] 116.197.155.254 () {58 vars in 1022 bytes} [Tue Aug  1 16:51:47 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 4/9] 116.197.155.254 () {56 vars in 922 bytes} [Tue Aug  1 16:51:47 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 5/10] 116.197.155.254 () {56 vars in 974 bytes} [Tue Aug  1 16:51:47 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 6/11] 116.197.155.254 () {56 vars in 972 bytes} [Tue Aug  1 16:51:47 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 7/12] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:52:10 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 8/13] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:52:10 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140449|app: 0|req: 2/14] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:52:10 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140447|app: 0|req: 1/15] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:52:10 2023] GET / => generated 328 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140448|app: 0|req: 3/16] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:52:10 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140450|app: 0|req: 9/17] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:52:10 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 10/18] 116.197.155.254 () {44 vars in 652 bytes} [Tue Aug  1 16:52:21 2023] HEAD / => generated 0 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140451|app: 0|req: 3/19] 116.197.155.254 () {60 vars in 1053 bytes} [Tue Aug  1 16:52:21 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140451|app: 0|req: 4/20] 116.197.155.254 () {60 vars in 1034 bytes} [Tue Aug  1 16:52:21 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140448|app: 0|req: 4/21] 116.197.155.254 () {60 vars in 1089 bytes} [Tue Aug  1 16:52:21 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140449|app: 0|req: 3/22] 116.197.155.254 () {60 vars in 1085 bytes} [Tue Aug  1 16:52:21 2023] GET /static/favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 186 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 11/23] 116.197.155.254 () {58 vars in 1022 bytes} [Tue Aug  1 16:52:28 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140449|app: 0|req: 4/24] 116.197.155.254 () {60 vars in 1034 bytes} [Tue Aug  1 16:52:28 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140449|app: 0|req: 5/25] 116.197.155.254 () {60 vars in 1089 bytes} [Tue Aug  1 16:52:28 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140448|app: 0|req: 5/26] 116.197.155.254 () {58 vars in 967 bytes} [Tue Aug  1 16:52:56 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140450|app: 0|req: 12/27] 116.197.155.254 () {56 vars in 906 bytes} [Tue Aug  1 16:52:56 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 140447|app: 0|req: 2/28] 116.197.155.254 () {56 vars in 958 bytes} [Tue Aug  1 16:52:56 2023] GET /static/yuri_boi.png => generated 149148 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 140450|app: 0|req: 13/29] 116.197.155.254 () {56 vars in 956 bytes} [Tue Aug  1 16:52:56 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 16:59:47 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5588a2839190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5588a2839190 pid: 140506 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140506)
+spawned uWSGI worker 1 (pid: 140507, cores: 1)
+spawned uWSGI worker 2 (pid: 140508, cores: 1)
+spawned uWSGI worker 3 (pid: 140509, cores: 1)
+spawned uWSGI worker 4 (pid: 140510, cores: 1)
+spawned uWSGI worker 5 (pid: 140511, cores: 1)
+[pid: 140508|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 16:59:52 2023] GET / => generated 328 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140507|app: 0|req: 1/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 16:59:52 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 140508|app: 0|req: 2/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 16:59:52 2023] GET /static/yuri_boi.png => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 140508|app: 0|req: 3/4] 116.197.155.254 () {60 vars in 998 bytes} [Tue Aug  1 17:00:01 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140509|app: 0|req: 1/5] 116.197.155.254 () {60 vars in 1018 bytes} [Tue Aug  1 17:00:01 2023] GET /static/style.css => generated 0 bytes in 17 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 140511|app: 0|req: 1/6] 116.197.155.254 () {60 vars in 1073 bytes} [Tue Aug  1 17:00:01 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 140511|app: 0|req: 2/7] 116.197.155.254 () {60 vars in 1069 bytes} [Tue Aug  1 17:00:01 2023] GET /static/favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 186 bytes (0 switches on core 0)
+[pid: 140510|app: 0|req: 1/8] 116.197.155.254 () {42 vars in 696 bytes} [Tue Aug  1 17:00:55 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140509|app: 0|req: 2/9] 116.197.155.254 () {42 vars in 652 bytes} [Tue Aug  1 17:00:55 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 140508|app: 0|req: 4/10] 116.197.155.254 () {42 vars in 704 bytes} [Tue Aug  1 17:00:55 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 140511|app: 0|req: 3/11] 116.197.155.254 () {42 vars in 702 bytes} [Tue Aug  1 17:00:55 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 140509|app: 0|req: 3/12] 79.104.53.14 () {34 vars in 384 bytes} [Tue Aug  1 17:00:58 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140511|app: 0|req: 4/13] 79.104.53.14 () {32 vars in 371 bytes} [Tue Aug  1 17:00:59 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 17:02:44 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5608bc5ff190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5608bc5ff190 pid: 140523 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140523)
+spawned uWSGI worker 1 (pid: 140524, cores: 1)
+spawned uWSGI worker 2 (pid: 140525, cores: 1)
+spawned uWSGI worker 3 (pid: 140526, cores: 1)
+spawned uWSGI worker 4 (pid: 140527, cores: 1)
+spawned uWSGI worker 5 (pid: 140528, cores: 1)
+[pid: 140527|app: 0|req: 1/1] 79.104.53.14 () {34 vars in 384 bytes} [Tue Aug  1 17:06:36 2023] GET / => generated 328 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140526|app: 0|req: 1/2] 79.104.53.14 () {32 vars in 371 bytes} [Tue Aug  1 17:06:37 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 140527|app: 0|req: 2/3] 159.69.91.132 () {34 vars in 389 bytes} [Tue Aug  1 17:07:48 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140526|app: 0|req: 2/4] 205.169.39.154 () {48 vars in 837 bytes} [Tue Aug  1 17:18:00 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140526|app: 0|req: 3/5] 205.169.39.154 () {40 vars in 725 bytes} [Tue Aug  1 17:18:05 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140526|app: 0|req: 4/6] 205.169.39.154 () {40 vars in 646 bytes} [Tue Aug  1 17:18:05 2023] GET /static/style.css => generated 905 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 140528|app: 0|req: 1/7] 205.169.39.154 () {40 vars in 698 bytes} [Tue Aug  1 17:18:05 2023] GET /static/yuri_boi.png => generated 149148 bytes in 20 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 140527|app: 0|req: 3/8] 185.180.143.141 () {36 vars in 502 bytes} [Tue Aug  1 17:23:06 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140526|app: 0|req: 5/9] 65.154.226.171 () {42 vars in 749 bytes} [Tue Aug  1 17:23:08 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140528|app: 0|req: 2/10] 65.154.226.171 () {42 vars in 670 bytes} [Tue Aug  1 17:23:12 2023] GET /static/style.css => generated 905 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 140527|app: 0|req: 4/11] 65.154.226.171 () {42 vars in 722 bytes} [Tue Aug  1 17:23:12 2023] GET /static/yuri_boi.png => generated 149148 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 140527|app: 0|req: 5/12] 51.81.167.146 () {32 vars in 485 bytes} [Tue Aug  1 17:35:10 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140527|app: 0|req: 6/13] 35.187.98.121 () {44 vars in 576 bytes} [Tue Aug  1 17:45:20 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 140526|app: 0|req: 6/14] 36.40.72.66 () {36 vars in 574 bytes} [Tue Aug  1 18:21:08 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 18:33:53 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bc6c96a190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bc6c96a190 pid: 140698 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140698)
+spawned uWSGI worker 1 (pid: 140699, cores: 1)
+spawned uWSGI worker 2 (pid: 140700, cores: 1)
+spawned uWSGI worker 3 (pid: 140701, cores: 1)
+spawned uWSGI worker 4 (pid: 140702, cores: 1)
+spawned uWSGI worker 5 (pid: 140703, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 18:35:11 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5565f8280190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5565f8280190 pid: 140720 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140720)
+spawned uWSGI worker 1 (pid: 140721, cores: 1)
+spawned uWSGI worker 2 (pid: 140722, cores: 1)
+spawned uWSGI worker 3 (pid: 140723, cores: 1)
+spawned uWSGI worker 4 (pid: 140724, cores: 1)
+spawned uWSGI worker 5 (pid: 140725, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:19:34 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d317bfc190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d317bfc190 pid: 140941 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140941)
+spawned uWSGI worker 1 (pid: 140942, cores: 1)
+spawned uWSGI worker 2 (pid: 140943, cores: 1)
+spawned uWSGI worker 3 (pid: 140944, cores: 1)
+spawned uWSGI worker 4 (pid: 140945, cores: 1)
+spawned uWSGI worker 5 (pid: 140946, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:21:59 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563a95bb6190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563a95bb6190 pid: 140972 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140972)
+spawned uWSGI worker 1 (pid: 140974, cores: 1)
+spawned uWSGI worker 2 (pid: 140975, cores: 1)
+spawned uWSGI worker 3 (pid: 140976, cores: 1)
+spawned uWSGI worker 4 (pid: 140977, cores: 1)
+spawned uWSGI worker 5 (pid: 140978, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:23:31 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55957f6e1190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55957f6e1190 pid: 140993 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 140993)
+spawned uWSGI worker 1 (pid: 140994, cores: 1)
+spawned uWSGI worker 2 (pid: 140995, cores: 1)
+spawned uWSGI worker 3 (pid: 140996, cores: 1)
+spawned uWSGI worker 4 (pid: 140997, cores: 1)
+spawned uWSGI worker 5 (pid: 140998, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:25:45 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562a57da9190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562a57da9190 pid: 141014 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141014)
+spawned uWSGI worker 1 (pid: 141016, cores: 1)
+spawned uWSGI worker 2 (pid: 141017, cores: 1)
+spawned uWSGI worker 3 (pid: 141018, cores: 1)
+spawned uWSGI worker 4 (pid: 141019, cores: 1)
+spawned uWSGI worker 5 (pid: 141020, cores: 1)
+[pid: 141018|app: 0|req: 1/1] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:26:24 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141018|app: 0|req: 2/2] 116.197.155.254 () {42 vars in 625 bytes} [Tue Aug  1 19:26:24 2023] GET /static/style.css => generated 905 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 141018|app: 0|req: 3/3] 116.197.155.254 () {42 vars in 638 bytes} [Tue Aug  1 19:26:24 2023] GET /static/yuri_boi.png => generated 149148 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 141018|app: 0|req: 4/4] 116.197.155.254 () {42 vars in 636 bytes} [Tue Aug  1 19:26:24 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 141020|app: 0|req: 1/5] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:26:27 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141020|app: 0|req: 2/6] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:26:27 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141016|app: 0|req: 1/7] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:26:27 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141016|app: 0|req: 2/8] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:26:35 2023] GET / => generated 328 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141020|app: 0|req: 3/9] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:26:36 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141020|app: 0|req: 4/10] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:26:36 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:28:19 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563603414190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563603414190 pid: 141029 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141029)
+spawned uWSGI worker 1 (pid: 141030, cores: 1)
+spawned uWSGI worker 2 (pid: 141031, cores: 1)
+spawned uWSGI worker 3 (pid: 141032, cores: 1)
+spawned uWSGI worker 4 (pid: 141033, cores: 1)
+spawned uWSGI worker 5 (pid: 141034, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:30:59 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5581f386b190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5581f386b190 pid: 141048 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141048)
+spawned uWSGI worker 1 (pid: 141049, cores: 1)
+spawned uWSGI worker 2 (pid: 141050, cores: 1)
+spawned uWSGI worker 3 (pid: 141051, cores: 1)
+spawned uWSGI worker 4 (pid: 141052, cores: 1)
+spawned uWSGI worker 5 (pid: 141053, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:31:05 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55570c8ac190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55570c8ac190 pid: 141059 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141059)
+spawned uWSGI worker 1 (pid: 141061, cores: 1)
+spawned uWSGI worker 2 (pid: 141062, cores: 1)
+spawned uWSGI worker 3 (pid: 141063, cores: 1)
+spawned uWSGI worker 4 (pid: 141064, cores: 1)
+spawned uWSGI worker 5 (pid: 141065, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:32:24 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563990de6190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563990de6190 pid: 141083 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141083)
+spawned uWSGI worker 1 (pid: 141084, cores: 1)
+spawned uWSGI worker 2 (pid: 141085, cores: 1)
+spawned uWSGI worker 3 (pid: 141086, cores: 1)
+spawned uWSGI worker 4 (pid: 141087, cores: 1)
+spawned uWSGI worker 5 (pid: 141088, cores: 1)
+[pid: 141085|app: 0|req: 1/1] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:32:29 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141084|app: 0|req: 1/2] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:32:30 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141088|app: 0|req: 1/3] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:32:30 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141088|app: 0|req: 2/4] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:32:33 2023] GET / => generated 328 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141086|app: 0|req: 1/5] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:32:33 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141086|app: 0|req: 2/6] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:32:33 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:34:09 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ca4b68b190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ca4b68b190 pid: 141100 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141100)
+spawned uWSGI worker 1 (pid: 141101, cores: 1)
+spawned uWSGI worker 2 (pid: 141102, cores: 1)
+spawned uWSGI worker 3 (pid: 141103, cores: 1)
+spawned uWSGI worker 4 (pid: 141104, cores: 1)
+spawned uWSGI worker 5 (pid: 141105, cores: 1)
+[pid: 141105|app: 0|req: 1/1] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:34:12 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141105|app: 0|req: 2/2] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:34:13 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141104|app: 0|req: 1/3] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:34:13 2023] GET /static/yuri_boi.png => generated 0 bytes in 16 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:37:53 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560fd184a190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560fd184a190 pid: 141121 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141121)
+spawned uWSGI worker 1 (pid: 141122, cores: 1)
+spawned uWSGI worker 2 (pid: 141123, cores: 1)
+spawned uWSGI worker 3 (pid: 141124, cores: 1)
+spawned uWSGI worker 4 (pid: 141125, cores: 1)
+spawned uWSGI worker 5 (pid: 141126, cores: 1)
+[pid: 141126|app: 0|req: 1/1] 172.105.247.100 () {36 vars in 434 bytes} [Tue Aug  1 19:39:53 2023] GET / => generated 328 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141126|app: 0|req: 2/2] 172.105.247.100 () {32 vars in 381 bytes} [Tue Aug  1 19:39:54 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141126|app: 0|req: 3/3] 172.105.247.100 () {32 vars in 381 bytes} [Tue Aug  1 19:39:54 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 1/4] 170.187.184.242 () {30 vars in 430 bytes} [Tue Aug  1 19:39:57 2023] HEAD / => generated 0 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141124|app: 0|req: 1/5] 170.187.184.242 () {32 vars in 457 bytes} [Tue Aug  1 19:39:57 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141123|app: 0|req: 1/6] 170.187.184.242 () {30 vars in 462 bytes} [Tue Aug  1 19:39:57 2023] HEAD /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 2/7] 170.187.184.242 () {32 vars in 489 bytes} [Tue Aug  1 19:39:58 2023] GET /static/style.css => generated 905 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 141126|app: 0|req: 4/8] 170.187.184.242 () {30 vars in 440 bytes} [Tue Aug  1 19:40:56 2023] HEAD /track => generated 0 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 141125|app: 0|req: 3/9] 194.195.243.80 () {30 vars in 461 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ws/ebayisapi.dll => generated 0 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 141125|app: 0|req: 4/10] 194.195.243.80 () {30 vars in 465 bytes} [Tue Aug  1 19:40:56 2023] HEAD /static/favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 141124|app: 0|req: 2/11] 170.187.184.242 () {30 vars in 442 bytes} [Tue Aug  1 19:40:56 2023] HEAD /signin => generated 0 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 5/12] 170.187.184.242 () {30 vars in 458 bytes} [Tue Aug  1 19:40:56 2023] HEAD /receive/order/ => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141123|app: 0|req: 2/13] 194.195.243.80 () {30 vars in 447 bytes} [Tue Aug  1 19:40:56 2023] HEAD /order.php => generated 0 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141124|app: 0|req: 3/14] 194.195.243.80 () {30 vars in 443 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ebay-ms => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 141126|app: 0|req: 5/15] 194.195.243.80 () {30 vars in 467 bytes} [Tue Aug  1 19:40:56 2023] HEAD /static/yuri_boi.png => generated 0 bytes in 13 msecs (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 6/16] 170.187.184.242 () {30 vars in 444 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ebay-mo => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141124|app: 0|req: 4/17] 194.195.243.80 () {30 vars in 435 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ws/ => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141123|app: 0|req: 3/18] 170.187.184.242 () {30 vars in 448 bytes} [Tue Aug  1 19:40:56 2023] HEAD /login.php => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 7/19] 194.195.243.80 () {30 vars in 443 bytes} [Tue Aug  1 19:40:56 2023] HEAD /receive => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 8/20] 194.195.243.80 () {30 vars in 431 bytes} [Tue Aug  1 19:40:56 2023] HEAD /r => generated 0 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141122|app: 0|req: 1/21] 170.187.184.242 () {30 vars in 444 bytes} [Tue Aug  1 19:40:56 2023] HEAD /captcha => generated 0 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141124|app: 0|req: 5/22] 194.195.243.80 () {30 vars in 447 bytes} [Tue Aug  1 19:40:56 2023] HEAD /signin/s/ => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141125|app: 0|req: 9/23] 170.187.184.242 () {30 vars in 438 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ebay => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141123|app: 0|req: 4/24] 194.195.243.80 () {30 vars in 447 bytes} [Tue Aug  1 19:40:56 2023] HEAD /index.php => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (0 switches on core 0)
+[pid: 141124|app: 0|req: 6/25] 194.195.243.80 () {30 vars in 443 bytes} [Tue Aug  1 19:40:56 2023] HEAD /ebay-wa => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:43:49 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557638496190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557638496190 pid: 141167 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141167)
+spawned uWSGI worker 1 (pid: 141168, cores: 1)
+spawned uWSGI worker 2 (pid: 141169, cores: 1)
+spawned uWSGI worker 3 (pid: 141170, cores: 1)
+spawned uWSGI worker 4 (pid: 141171, cores: 1)
+spawned uWSGI worker 5 (pid: 141172, cores: 1)
+[pid: 141172|app: 0|req: 1/1] 116.197.155.254 () {56 vars in 874 bytes} [Tue Aug  1 19:44:01 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141172|app: 0|req: 2/2] 116.197.155.254 () {50 vars in 727 bytes} [Tue Aug  1 19:44:01 2023] GET /static/style.css => generated 905 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 141172|app: 0|req: 3/3] 116.197.155.254 () {50 vars in 740 bytes} [Tue Aug  1 19:44:01 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 141172|app: 0|req: 4/4] 116.197.155.254 () {50 vars in 738 bytes} [Tue Aug  1 19:44:01 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 141172|app: 0|req: 5/5] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 19:44:06 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141169|app: 0|req: 1/6] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 19:44:06 2023] GET /static/style.css => generated 0 bytes in 16 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141169|app: 0|req: 2/7] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 19:44:07 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141169|app: 0|req: 3/8] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 19:44:08 2023] GET / => generated 328 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141169|app: 0|req: 4/9] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 19:44:08 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141169|app: 0|req: 5/10] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 19:44:08 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141168|app: 0|req: 1/11] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 19:44:08 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141170|app: 0|req: 1/12] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 19:44:08 2023] GET /static/style.css => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141170|app: 0|req: 2/13] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 19:44:08 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:51:17 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ee23000190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ee23000190 pid: 141190 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141190)
+spawned uWSGI worker 1 (pid: 141192, cores: 1)
+spawned uWSGI worker 2 (pid: 141193, cores: 1)
+spawned uWSGI worker 3 (pid: 141194, cores: 1)
+spawned uWSGI worker 4 (pid: 141195, cores: 1)
+spawned uWSGI worker 5 (pid: 141196, cores: 1)
+[pid: 141196|app: 0|req: 1/1] 116.197.155.254 () {46 vars in 747 bytes} [Tue Aug  1 19:51:23 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141196|app: 0|req: 2/2] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:51:23 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141196|app: 0|req: 3/3] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:51:23 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141196|app: 0|req: 4/4] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:51:28 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141192|app: 0|req: 1/5] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:51:28 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141193|app: 0|req: 1/6] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:51:29 2023] GET /static/yuri_boi.png => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 19:54:25 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ca6066e190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ca6066e190 pid: 141216 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141216)
+spawned uWSGI worker 1 (pid: 141217, cores: 1)
+spawned uWSGI worker 2 (pid: 141218, cores: 1)
+spawned uWSGI worker 3 (pid: 141219, cores: 1)
+spawned uWSGI worker 4 (pid: 141220, cores: 1)
+spawned uWSGI worker 5 (pid: 141221, cores: 1)
+[pid: 141221|app: 0|req: 1/1] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:54:29 2023] GET / => generated 328 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141217|app: 0|req: 1/2] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:54:29 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141217|app: 0|req: 2/3] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:54:29 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141217|app: 0|req: 3/4] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:54:38 2023] GET / => generated 328 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141217|app: 0|req: 4/5] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:54:38 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141217|app: 0|req: 5/6] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:54:38 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141217|app: 0|req: 6/7] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:55:20 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141219|app: 0|req: 1/8] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:55:21 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141220|app: 0|req: 1/9] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:55:21 2023] GET /static/yuri_boi.png => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141220|app: 0|req: 2/10] 116.197.155.254 () {42 vars in 654 bytes} [Tue Aug  1 19:55:45 2023] GET / => generated 328 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141220|app: 0|req: 3/11] 116.197.155.254 () {46 vars in 737 bytes} [Tue Aug  1 19:55:45 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141219|app: 0|req: 2/12] 116.197.155.254 () {46 vars in 753 bytes} [Tue Aug  1 19:55:45 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141219|app: 0|req: 3/13] 198.54.135.73 () {58 vars in 1092 bytes} [Tue Aug  1 20:03:36 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:03:38 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ee268f0190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ee268f0190 pid: 141259 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141259)
+spawned uWSGI worker 1 (pid: 141260, cores: 1)
+spawned uWSGI worker 2 (pid: 141261, cores: 1)
+spawned uWSGI worker 3 (pid: 141262, cores: 1)
+spawned uWSGI worker 4 (pid: 141263, cores: 1)
+spawned uWSGI worker 5 (pid: 141264, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:04:40 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559d3cd4a190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559d3cd4a190 pid: 141279 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141279)
+spawned uWSGI worker 1 (pid: 141280, cores: 1)
+spawned uWSGI worker 2 (pid: 141281, cores: 1)
+spawned uWSGI worker 3 (pid: 141282, cores: 1)
+spawned uWSGI worker 4 (pid: 141283, cores: 1)
+spawned uWSGI worker 5 (pid: 141284, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:05:22 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56294e758190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56294e758190 pid: 141296 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141296)
+spawned uWSGI worker 1 (pid: 141297, cores: 1)
+spawned uWSGI worker 2 (pid: 141298, cores: 1)
+spawned uWSGI worker 3 (pid: 141299, cores: 1)
+spawned uWSGI worker 4 (pid: 141300, cores: 1)
+spawned uWSGI worker 5 (pid: 141301, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:07:31 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564fae8e4190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564fae8e4190 pid: 141315 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141315)
+spawned uWSGI worker 1 (pid: 141316, cores: 1)
+spawned uWSGI worker 2 (pid: 141317, cores: 1)
+spawned uWSGI worker 3 (pid: 141318, cores: 1)
+spawned uWSGI worker 4 (pid: 141319, cores: 1)
+spawned uWSGI worker 5 (pid: 141320, cores: 1)
+[pid: 141317|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:07:39 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141316|app: 0|req: 1/2] 116.197.155.254 () {50 vars in 735 bytes} [Tue Aug  1 20:07:40 2023] GET /static/style.css => generated 905 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 141319|app: 0|req: 1/3] 116.197.155.254 () {50 vars in 748 bytes} [Tue Aug  1 20:07:40 2023] GET /static/yuri_boi.png => generated 149148 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 141320|app: 0|req: 1/4] 116.197.155.254 () {50 vars in 746 bytes} [Tue Aug  1 20:07:40 2023] GET /static/favicon.ico => generated 4286 bytes in 16 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+[pid: 141318|app: 0|req: 1/5] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:07:42 2023] GET / => generated 328 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141319|app: 0|req: 2/6] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:07:42 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 141316|app: 0|req: 2/7] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:07:42 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141319|app: 0|req: 3/8] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:07:56 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141320|app: 0|req: 2/9] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:07:56 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 141320|app: 0|req: 3/10] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:07:56 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:08:08 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557802bf7190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557802bf7190 pid: 141330 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141330)
+spawned uWSGI worker 1 (pid: 141332, cores: 1)
+spawned uWSGI worker 2 (pid: 141333, cores: 1)
+spawned uWSGI worker 3 (pid: 141334, cores: 1)
+spawned uWSGI worker 4 (pid: 141335, cores: 1)
+spawned uWSGI worker 5 (pid: 141336, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:09:45 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564c9dd37190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564c9dd37190 pid: 141350 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141350)
+spawned uWSGI worker 1 (pid: 141351, cores: 1)
+spawned uWSGI worker 2 (pid: 141352, cores: 1)
+spawned uWSGI worker 3 (pid: 141353, cores: 1)
+spawned uWSGI worker 4 (pid: 141354, cores: 1)
+spawned uWSGI worker 5 (pid: 141355, cores: 1)
+[pid: 141355|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:09:48 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 1/2] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:09:48 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 141355|app: 0|req: 2/3] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:09:48 2023] GET /static/yuri_boi.png => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 141351|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:09:49 2023] GET / => generated 328 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141351|app: 0|req: 2/5] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:09:49 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141353|app: 0|req: 1/6] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:09:49 2023] GET /static/yuri_boi.png => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141353|app: 0|req: 2/7] 116.197.155.254 () {56 vars in 874 bytes} [Tue Aug  1 20:09:58 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 2/8] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:09:58 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141354|app: 0|req: 1/9] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:09:58 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 3/10] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:10:00 2023] GET / => generated 328 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141355|app: 0|req: 3/11] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:10:00 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141355|app: 0|req: 4/12] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:10:00 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141355|app: 0|req: 5/13] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:10:26 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141353|app: 0|req: 3/14] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:10:26 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141354|app: 0|req: 2/15] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:10:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 141351|app: 0|req: 3/16] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:02 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141351|app: 0|req: 4/17] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:02 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141351|app: 0|req: 5/18] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:02 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141354|app: 0|req: 3/19] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:47 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141354|app: 0|req: 4/20] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:47 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 4/21] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:47 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 5/22] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:48 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 6/23] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:48 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141355|app: 0|req: 6/24] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:48 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 7/25] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:48 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 8/26] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:48 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 9/27] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:49 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 10/28] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:49 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 11/29] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:49 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 12/30] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:50 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 13/31] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:11:50 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141352|app: 0|req: 14/32] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:11:50 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 15/33] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:11:51 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141352|app: 0|req: 16/34] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:11:58 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141353|app: 0|req: 4/35] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:11:59 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141355|app: 0|req: 7/36] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:11:59 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:12:06 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cb3c1ba190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55cb3c1ba190 pid: 141385 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141385)
+spawned uWSGI worker 1 (pid: 141386, cores: 1)
+spawned uWSGI worker 2 (pid: 141387, cores: 1)
+spawned uWSGI worker 3 (pid: 141388, cores: 1)
+spawned uWSGI worker 4 (pid: 141389, cores: 1)
+spawned uWSGI worker 5 (pid: 141390, cores: 1)
+[pid: 141390|app: 0|req: 1/1] 116.197.155.254 () {64 vars in 1091 bytes} [Tue Aug  1 20:12:41 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141389|app: 0|req: 1/2] 116.197.155.254 () {56 vars in 906 bytes} [Tue Aug  1 20:12:41 2023] GET /static/style.css => generated 905 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 141387|app: 0|req: 1/3] 116.197.155.254 () {56 vars in 958 bytes} [Tue Aug  1 20:12:41 2023] GET /static/yuri_boi.png => generated 149148 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (1 switches on core 0)
+[pid: 141389|app: 0|req: 2/4] 116.197.155.254 () {56 vars in 956 bytes} [Tue Aug  1 20:12:41 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:14:07 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564b1b2ac190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564b1b2ac190 pid: 141405 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141405)
+spawned uWSGI worker 1 (pid: 141407, cores: 1)
+spawned uWSGI worker 2 (pid: 141408, cores: 1)
+spawned uWSGI worker 3 (pid: 141409, cores: 1)
+spawned uWSGI worker 4 (pid: 141410, cores: 1)
+spawned uWSGI worker 5 (pid: 141411, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:15:10 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c363090190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c363090190 pid: 141421 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141421)
+spawned uWSGI worker 1 (pid: 141422, cores: 1)
+spawned uWSGI worker 2 (pid: 141423, cores: 1)
+spawned uWSGI worker 3 (pid: 141424, cores: 1)
+spawned uWSGI worker 4 (pid: 141425, cores: 1)
+spawned uWSGI worker 5 (pid: 141426, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:16:31 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564986d43190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564986d43190 pid: 141433 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141433)
+spawned uWSGI worker 1 (pid: 141434, cores: 1)
+spawned uWSGI worker 2 (pid: 141435, cores: 1)
+spawned uWSGI worker 3 (pid: 141436, cores: 1)
+spawned uWSGI worker 4 (pid: 141437, cores: 1)
+spawned uWSGI worker 5 (pid: 141438, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:17:38 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d7e12b7190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d7e12b7190 pid: 141449 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141449)
+spawned uWSGI worker 1 (pid: 141450, cores: 1)
+spawned uWSGI worker 2 (pid: 141451, cores: 1)
+spawned uWSGI worker 3 (pid: 141452, cores: 1)
+spawned uWSGI worker 4 (pid: 141453, cores: 1)
+spawned uWSGI worker 5 (pid: 141454, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:18:24 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56526755b190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56526755b190 pid: 141460 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141460)
+spawned uWSGI worker 1 (pid: 141461, cores: 1)
+spawned uWSGI worker 2 (pid: 141462, cores: 1)
+spawned uWSGI worker 3 (pid: 141463, cores: 1)
+spawned uWSGI worker 4 (pid: 141464, cores: 1)
+spawned uWSGI worker 5 (pid: 141465, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug  1 20:19:19 2023] ***
+compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-1 (2023-05-12)
+nodename: shaunslib
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/bruikey03/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7843
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
+Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556239159190
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556239159190 pid: 141478 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 141478)
+spawned uWSGI worker 1 (pid: 141479, cores: 1)
+spawned uWSGI worker 2 (pid: 141480, cores: 1)
+spawned uWSGI worker 3 (pid: 141481, cores: 1)
+spawned uWSGI worker 4 (pid: 141482, cores: 1)
+spawned uWSGI worker 5 (pid: 141483, cores: 1)
+[pid: 141480|app: 0|req: 1/1] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:19:24 2023] GET / => generated 328 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141480|app: 0|req: 2/2] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:19:25 2023] GET /static/style.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141480|app: 0|req: 3/3] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:19:25 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 1/4] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:19:26 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141479|app: 0|req: 1/5] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:19:26 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141479|app: 0|req: 2/6] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:19:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141481|app: 0|req: 1/7] 116.197.155.254 () {52 vars in 785 bytes} [Tue Aug  1 20:19:31 2023] GET / => generated 328 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141482|app: 0|req: 1/8] 116.197.155.254 () {54 vars in 847 bytes} [Tue Aug  1 20:19:32 2023] GET /static/style.css => generated 0 bytes in 14 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141482|app: 0|req: 2/9] 116.197.155.254 () {54 vars in 863 bytes} [Tue Aug  1 20:19:32 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141479|app: 0|req: 3/10] 116.197.155.254 () {56 vars in 958 bytes} [Tue Aug  1 20:19:39 2023] GET /favicon.ico => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 141482|app: 0|req: 3/11] 116.197.155.254 () {64 vars in 1146 bytes} [Tue Aug  1 20:19:40 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141482|app: 0|req: 4/12] 116.197.155.254 () {56 vars in 922 bytes} [Tue Aug  1 20:19:40 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 141482|app: 0|req: 5/13] 116.197.155.254 () {56 vars in 974 bytes} [Tue Aug  1 20:19:40 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 141482|app: 0|req: 6/14] 116.197.155.254 () {60 vars in 1085 bytes} [Tue Aug  1 20:19:41 2023] GET /static/favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 186 bytes (0 switches on core 0)
+[pid: 141482|app: 0|req: 7/15] 116.197.155.254 () {58 vars in 1022 bytes} [Tue Aug  1 20:19:50 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141482|app: 0|req: 8/16] 116.197.155.254 () {60 vars in 1034 bytes} [Tue Aug  1 20:19:50 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (1 switches on core 0)
+[pid: 141481|app: 0|req: 2/17] 116.197.155.254 () {60 vars in 1089 bytes} [Tue Aug  1 20:19:50 2023] GET /static/yuri_boi.png => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 2/18] 116.197.155.254 () {60 vars in 1067 bytes} [Tue Aug  1 20:20:04 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141482|app: 0|req: 9/19] 116.197.155.254 () {60 vars in 1089 bytes} [Tue Aug  1 20:20:05 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (1 switches on core 0)
+[pid: 141483|app: 0|req: 3/20] 116.197.155.254 () {60 vars in 1034 bytes} [Tue Aug  1 20:20:05 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 4/21] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:20:18 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141483|app: 0|req: 5/22] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:20:19 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 6/23] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:20:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 7/24] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:20:30 2023] GET / => generated 328 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141483|app: 0|req: 8/25] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:20:30 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 9/26] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:20:30 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141483|app: 0|req: 10/27] 116.197.155.254 () {52 vars in 781 bytes} [Tue Aug  1 20:23:44 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141479|app: 0|req: 4/28] 116.197.155.254 () {54 vars in 839 bytes} [Tue Aug  1 20:23:44 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 141479|app: 0|req: 5/29] 116.197.155.254 () {54 vars in 855 bytes} [Tue Aug  1 20:23:44 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 141479|app: 0|req: 6/30] 65.154.226.168 () {52 vars in 880 bytes} [Tue Aug  1 20:27:19 2023] GET / => generated 328 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 141482|app: 0|req: 10/32] 65.154.226.168 () {56 vars in 976 bytes} [Tue Aug  1 20:27:19 2023] GET /static/yuri_boi.png => generated 149148 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 141481|app: 0|req: 3/32] 65.154.226.168 () {56 vars in 924 bytes} [Tue Aug  1 20:27:19 2023] GET /static/style.css => generated 905 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 141482|app: 0|req: 11/33] 159.69.91.132 () {34 vars in 385 bytes} [Tue Aug  1 20:42:48 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141483|app: 0|req: 11/34] 104.164.173.185 () {44 vars in 825 bytes} [Tue Aug  1 20:43:39 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141482|app: 0|req: 12/35] 171.67.70.233 () {36 vars in 410 bytes} [Tue Aug  1 20:45:45 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 141483|app: 0|req: 12/36] 51.81.167.146 () {34 vars in 498 bytes} [Tue Aug  1 20:48:16 2023] GET / => generated 328 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
