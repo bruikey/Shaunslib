@@ -15,13 +15,13 @@ jobs:
 
       - name: Set up SSH key
         run: |
-          mkdir -p ~/.ssh/ && touch ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/known_hosts
-          ssh-keyscan 34.100.132.156 >> ~/.ssh/known_hosts
+          mkdir -p $HOME/.ssh/ && touch $HOME/.ssh/known_hosts
+          chmod 600 $HOME/.ssh/known_hosts
+          ssh-keyscan 34.100.132.156 >> $HOME/.ssh/known_hosts
           eval $(ssh-agent)
           ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
       
       - name: Deploy code to VM
         run: |
-          ssh -i ~/.ssh/id_rsa bruikey03@34.100.132.156 'cd /home/bruikey03/shaunslib && git pull'
+          ssh -i $HOME/.ssh/id_rsa bruikey03@34.100.132.156 'cd /home/bruikey03/shaunslib && git pull'
 
