@@ -3,7 +3,7 @@ name: Deploy to Google Cloud VM
 on:
   push:
     branches:
-      - main # Replace "main" with your main branch name
+      - main
 
 jobs:
   deploy:
@@ -20,5 +20,5 @@ jobs:
 
       - name: Deploy code to VM
         run: |
-          ssh shaun0_03@34.93.119.113 'cd /home/bruikey03/shaunslib && git pull'
+          ssh -i shaun0_03@34.100.132.156 'cd /home/bruikey03/shaunslib && git pull'
 
