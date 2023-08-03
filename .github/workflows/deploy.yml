@@ -21,5 +21,7 @@ jobs:
       
       - name: Deploy code to VM
         run: |
+          VM_IP=34.100.132.156
+          ssh-keyscan $VM_IP >> $HOME/.ssh/known_hosts
           ssh shaun0_03@34.100.132.156 'cd /home/bruikey03/shaunslib && git pull'
 
