@@ -16,10 +16,9 @@ jobs:
       - name: Set up SSH key
         run: |
           mkdir -p $HOME/.ssh/ && touch $HOME/.ssh/known_hosts
-          chmod 600 $HOME/.ssh/known_hosts
           ssh-keyscan 34.100.132.156 >> $HOME/.ssh/known_hosts
           echo "${{ secrets.SSH_SECRET_KEY }}" > $HOME/.ssh/id_rsa
-          chmod 600 $HOME/.ssh/id_rsa
+          chmod -R 400 $HOME/.ssh/id_rsa
       
       - name: Deploy code to VM
         run: |
