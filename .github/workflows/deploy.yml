@@ -20,7 +20,6 @@ jobs:
           ssh-keyscan 34.100.132.156 >> ~/.ssh/known_hosts
           eval $(ssh-agent)
           ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
-          chmod 600 ~/.ssh/id_rsa
       
       - name: Deploy code to VM
         run: |
