@@ -16,11 +16,11 @@ jobs:
       - name: Set up SSH key
         run: |
           mkdir -p $HOME/.ssh/ && touch $HOME/.ssh/known_hosts
-          ssh-keyscan 34.100.132.156 >> $HOME/.ssh/known_hosts
+          ssh-keyscan 34.100.238.6 >> $HOME/.ssh/known_hosts
           echo "${{ secrets.SSH_SECRET_KEY }}" > $HOME/.ssh/id_rsa
           chmod -R 400 $HOME/.ssh/id_rsa
       
       - name: Deploy code to VM
         run: |
-          ssh -i $HOME/.ssh/id_rsa bruikey03@34.100.132.156 'cd /home/bruikey03/shaunslib && git pull'
+          ssh -i $HOME/.ssh/id_rsa bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
 
