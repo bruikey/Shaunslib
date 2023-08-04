@@ -20,5 +20,5 @@ jobs:
       
       - name: Deploy code to VM
         run: |
-          ssh -i $HOME/.ssh/id_rsa bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
+          ssh bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
 
