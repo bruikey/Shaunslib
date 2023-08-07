@@ -15,7 +15,6 @@ jobs:
       
       - name: Deploy code to VM
         run: |
-          eval $(ssh-agent -k)
           mkdir -p $HOME/.ssh/ && touch ~/.ssh/known_hosts && touch ~/.ssh/id_rsa
           echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
