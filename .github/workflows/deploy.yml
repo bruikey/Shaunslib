@@ -20,6 +20,6 @@ jobs:
           echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
           chmod 400 ~/.ssh/id_rsa
           chmod 600 ~/.ssh/known_hosts
-          ssh bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
+          ssh -i ~/.ssh/id_rsa bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
           
 
