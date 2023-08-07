@@ -20,5 +20,8 @@ jobs:
       
       - name: Deploy code to VM
         run: |
+          touch ~/.ssh/known_hosts
+          echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           ssh bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
+          
 
