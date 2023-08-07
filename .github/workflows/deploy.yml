@@ -18,7 +18,7 @@ jobs:
           eval $(ssh-agent -k)
           mkdir -p $HOME/.ssh/ && touch ~/.ssh/known_hosts && touch ~/.ssh/id_rsa
           echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
-          echo "${{ secrets.SSH_KEY }}" > $HOME/.ssh/id_rsa
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
           chmod 400 ~/.ssh/id_rsa
           chmod 600 ~/.ssh/known_hosts
           ssh bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
