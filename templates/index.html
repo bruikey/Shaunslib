@@ -12,18 +12,18 @@
 <div class="image-container">
   <img src="{{ url_for('static', filename='yuri_boi.png') }}" alt="Image">
 </div>
-<div class="login-section">
-	<h2>Login</h2>
-	<form>
-		<label for="username">Username:</label>
-		<input type="text" id="username" name="username">
-		
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password">
-		
-		<button type="submit">Login</button>
-	</form>
-</div>	
+<main>
+	<div class="login-container">
+		<h2>Login</h2>
+		<form action="login.php" method="post">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<button type="submit">Login</button>
+		</form>
+	</div>
+</main>
 
 </body>
 </html>
