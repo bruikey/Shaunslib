@@ -3,31 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1 {
-  font-family: pu;font-family: 'Roboto Mono', monospace;
-  font-size: 4em;
-  color: #333;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.letter {
-  display: inline-block;
-  transform-origin: bottom center;
-  animation: bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
-}
-@keyframes bounce {
-  0% {
-    transform: scaleY(0);
-  }
-  50% {
-    transform: scaleY(1.5);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-
 .image-container {
   position: relative;
   width: 100%;
