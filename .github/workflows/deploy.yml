@@ -12,12 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - uses: webfactory/ssh-agent@v0.7.0
-        with:
-            ssh-private-key: ${{ secrets.SSH_KEY }}
-      
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - name: Deploy code to VM
         run: |
-          ssh bruikey03@34.100.160.119 'cd /home/bruikey03/shaunslib && git pull'
+          ssh -i ~/.ssh/id_rsa bruikey03@34.100.160.119 'cd /home/bruikey03/shaunslib && git pull'
           
 
