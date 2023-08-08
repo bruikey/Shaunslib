@@ -18,6 +18,6 @@ jobs:
       
       - name: Deploy code to VM
         run: |
-          ssh bruikey03@34.100.238.6 'cd /home/bruikey03/shaunslib && git pull'
+          ssh bruikey03@34.100.160.119 'cd /home/bruikey03/shaunslib && git pull'
           
 
