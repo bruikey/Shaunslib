@@ -56,10 +56,6 @@ body {
   flex-direction: column;
 }
 
-.login-section label {
-  margin-bottom: 5px;
-}
-
 .login-section input {
   padding: 8px;
   margin-bottom: 10px;
