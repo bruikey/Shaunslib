@@ -10,7 +10,7 @@ db.init_app(app)
 def index():
 	return render_template('index.html')
 
-@app.route('/js/sign_up.js', methods=['GET', 'POST'])
+@app.route('/signup.html', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
         username = request.form.get('username')
@@ -23,7 +23,7 @@ def signup():
 
         return redirect(url_for('index'))
 
-    return render_template('sign_up.js')
+    return render_template('signup.html')
 
 
 if __name__ == "__main__":
