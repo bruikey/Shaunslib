@@ -1,486 +1,67 @@
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 19:56:04 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55c5f1e0c420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 210514)
-spawned uWSGI worker 1 (pid: 210515, cores: 1)
-spawned uWSGI worker 2 (pid: 210516, cores: 1)
-spawned uWSGI worker 3 (pid: 210517, cores: 1)
-spawned uWSGI worker 4 (pid: 210518, cores: 1)
-spawned uWSGI worker 5 (pid: 210519, cores: 1)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 20:01:05 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x56174474a420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 210617)
-spawned uWSGI worker 1 (pid: 210621, cores: 1)
-spawned uWSGI worker 2 (pid: 210622, cores: 1)
-spawned uWSGI worker 3 (pid: 210623, cores: 1)
-spawned uWSGI worker 4 (pid: 210624, cores: 1)
-spawned uWSGI worker 5 (pid: 210625, cores: 1)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 20:04:21 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x56534e5cf420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 210695)
-spawned uWSGI worker 1 (pid: 210698, cores: 1)
-spawned uWSGI worker 2 (pid: 210699, cores: 1)
-spawned uWSGI worker 3 (pid: 210700, cores: 1)
-spawned uWSGI worker 4 (pid: 210701, cores: 1)
-spawned uWSGI worker 5 (pid: 210702, cores: 1)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/1] 202.91.80.214 () {60 vars in 1021 bytes} [Mon Aug 14 20:08:19 2023] GET /static/style.css => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210700|app: -1|req: -1/2] 202.91.80.214 () {60 vars in 1075 bytes} [Mon Aug 14 20:08:19 2023] GET /static/yuri_boi.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210700|app: -1|req: -1/3] 202.91.80.214 () {60 vars in 1071 bytes} [Mon Aug 14 20:08:19 2023] GET /static/favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/4] 202.91.80.214 () {60 vars in 1006 bytes} [Mon Aug 14 20:08:23 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/5] 202.91.80.214 () {56 vars in 944 bytes} [Mon Aug 14 20:08:23 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210701|app: -1|req: -1/6] 202.91.80.214 () {60 vars in 1006 bytes} [Mon Aug 14 20:08:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/7] 202.91.80.214 () {56 vars in 944 bytes} [Mon Aug 14 20:08:24 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/8] 202.91.80.214 () {60 vars in 1006 bytes} [Mon Aug 14 20:08:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210699|app: -1|req: -1/9] 202.91.80.214 () {56 vars in 944 bytes} [Mon Aug 14 20:08:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210698|app: -1|req: -1/10] 202.91.80.214 () {60 vars in 1006 bytes} [Mon Aug 14 20:08:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210698|app: -1|req: -1/11] 202.91.80.214 () {56 vars in 944 bytes} [Mon Aug 14 20:08:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210701|app: -1|req: -1/12] 202.91.80.214 () {60 vars in 1006 bytes} [Mon Aug 14 20:08:29 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210700|app: -1|req: -1/13] 202.91.80.214 () {56 vars in 944 bytes} [Mon Aug 14 20:08:29 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/14] 202.91.80.214 () {56 vars in 938 bytes} [Mon Aug 14 20:08:32 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/15] 202.91.80.214 () {60 vars in 1055 bytes} [Mon Aug 14 20:08:43 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/16] 202.91.80.214 () {56 vars in 960 bytes} [Mon Aug 14 20:08:43 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210701|app: -1|req: -1/17] 202.91.80.214 () {60 vars in 1055 bytes} [Mon Aug 14 20:08:44 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/18] 202.91.80.214 () {56 vars in 960 bytes} [Mon Aug 14 20:08:44 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/19] 202.91.80.214 () {60 vars in 1055 bytes} [Mon Aug 14 20:08:50 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210699|app: -1|req: -1/20] 202.91.80.214 () {56 vars in 960 bytes} [Mon Aug 14 20:08:50 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 210702|app: -1|req: -1/21] 202.91.80.214 () {56 vars in 960 bytes} [Mon Aug 14 20:09:03 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 20:27:19 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55f472a07420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 211043)
-spawned uWSGI worker 1 (pid: 211046, cores: 1)
-spawned uWSGI worker 2 (pid: 211047, cores: 1)
-spawned uWSGI worker 3 (pid: 211048, cores: 1)
-spawned uWSGI worker 4 (pid: 211049, cores: 1)
-spawned uWSGI worker 5 (pid: 211050, cores: 1)
---- no python application found, check your startup logs for errors ---
-[pid: 211049|app: -1|req: -1/1] 202.91.80.214 () {60 vars in 1055 bytes} [Mon Aug 14 21:02:12 2023] GET / => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211049|app: -1|req: -1/2] 202.91.80.214 () {56 vars in 960 bytes} [Mon Aug 14 21:02:12 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211049|app: -1|req: -1/3] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:08:41 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211049|app: -1|req: -1/4] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:08:43 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 21:18:18 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x556040375420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 211575)
-spawned uWSGI worker 1 (pid: 211583, cores: 1)
-spawned uWSGI worker 2 (pid: 211584, cores: 1)
-spawned uWSGI worker 3 (pid: 211585, cores: 1)
-spawned uWSGI worker 4 (pid: 211586, cores: 1)
-spawned uWSGI worker 5 (pid: 211587, cores: 1)
---- no python application found, check your startup logs for errors ---
-[pid: 211586|app: -1|req: -1/1] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:18:33 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211586|app: -1|req: -1/2] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:18:34 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211586|app: -1|req: -1/3] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:18:41 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 211586|app: -1|req: -1/4] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:18:42 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Mon Aug 14 21:19:13 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
-os: Linux-5.10.0-23-cloud-amd64 #1 SMP Debian 5.10.179-3 (2023-07-27)
-nodename: shaunslib
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7843
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55607b066420
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 437424 bytes (427 KB) for 5 cores
-*** Operational MODE: preforking ***
-Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
-    from app import app
-  File "./app.py", line 7, in <module>
-    db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
-    engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
-    return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
-    return create_engine(url, **options)
-  File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
-    return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
-    dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
-    import psycopg2
-ModuleNotFoundError: No module named 'psycopg2'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 211608)
-spawned uWSGI worker 1 (pid: 211609, cores: 1)
-spawned uWSGI worker 2 (pid: 211610, cores: 1)
-spawned uWSGI worker 3 (pid: 211611, cores: 1)
-spawned uWSGI worker 4 (pid: 211612, cores: 1)
-spawned uWSGI worker 5 (pid: 211613, cores: 1)
---- no python application found, check your startup logs for errors ---
-[pid: 211612|app: -1|req: -1/1] 202.91.80.214 () {52 vars in 787 bytes} [Mon Aug 14 21:20:50 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
-SIGINT/SIGTERM received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 5 buried after 1 seconds
-goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug 15 13:57:48 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+*** Starting uWSGI 2.0.22 (64bit) on [Fri Aug 18 21:19:08 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
-nodename: shaunslib
+nodename: 819138c384d2
 machine: x86_64
 clock source: unix
 detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
+current working directory: /home/shaunslib
 detected binary path: /usr/local/bin/uwsgi
 !!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7844
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your memory page size is 4096 bytes
 detected max file descriptor number: 1024
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 *** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x563e36d53410
+Python main interpreter initialized at 0x55fa63da1f40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 437424 bytes (427 KB) for 5 cores
 *** Operational MODE: preforking ***
 Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
     from app import app
-  File "./app.py", line 7, in <module>
+  File "/home/shaunslib/./app.py", line 7, in <module>
     db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
     engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
     return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
     return create_engine(url, **options)
   File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
     return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
     dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
     import psycopg2
 ModuleNotFoundError: No module named 'psycopg2'
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 506)
-spawned uWSGI worker 1 (pid: 700, cores: 1)
-spawned uWSGI worker 2 (pid: 701, cores: 1)
-spawned uWSGI worker 3 (pid: 703, cores: 1)
-spawned uWSGI worker 4 (pid: 704, cores: 1)
-spawned uWSGI worker 5 (pid: 706, cores: 1)
---- no python application found, check your startup logs for errors ---
-[pid: 703|app: -1|req: -1/1] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 13:59:59 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 703|app: -1|req: -1/2] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:03 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 703|app: -1|req: -1/3] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:03 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 703|app: -1|req: -1/4] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 706|app: -1|req: -1/5] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:04 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 704|app: -1|req: -1/6] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 704|app: -1|req: -1/7] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:04 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 701|app: -1|req: -1/8] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
---- no python application found, check your startup logs for errors ---
-[pid: 701|app: -1|req: -1/9] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:04 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+spawned uWSGI master process (pid: 7162)
+spawned uWSGI worker 1 (pid: 7163, cores: 1)
+spawned uWSGI worker 2 (pid: 7164, cores: 1)
+spawned uWSGI worker 3 (pid: 7165, cores: 1)
+spawned uWSGI worker 4 (pid: 7166, cores: 1)
+spawned uWSGI worker 5 (pid: 7167, cores: 1)
+Fri Aug 18 21:20:15 2023 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Fri Aug 18 21:20:15 2023 - *** worker 1 suspended ***
+Fri Aug 18 21:20:15 2023 - *** worker 2 suspended ***
+Fri Aug 18 21:20:15 2023 - *** worker 3 suspended ***
+Fri Aug 18 21:20:15 2023 - *** worker 4 suspended ***
+Fri Aug 18 21:20:15 2023 - *** worker 5 suspended ***
 SIGINT/SIGTERM received...killing workers...
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
@@ -488,74 +69,89 @@ worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug 15 14:00:24 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Fri Aug 18 21:21:11 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
-nodename: shaunslib
+nodename: 819138c384d2
 machine: x86_64
 clock source: unix
 detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
+current working directory: /home/shaunslib
 detected binary path: /usr/local/bin/uwsgi
 !!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7844
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your memory page size is 4096 bytes
 detected max file descriptor number: 1024
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 *** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55aee9d50410
+Python main interpreter initialized at 0x55c798a94f40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 437424 bytes (427 KB) for 5 cores
 *** Operational MODE: preforking ***
 Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
     from app import app
-  File "./app.py", line 7, in <module>
+  File "/home/shaunslib/./app.py", line 7, in <module>
     db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
     engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
     return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
     return create_engine(url, **options)
   File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
     return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
     dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
     import psycopg2
 ModuleNotFoundError: No module named 'psycopg2'
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 1033)
-spawned uWSGI worker 1 (pid: 1034, cores: 1)
-spawned uWSGI worker 2 (pid: 1035, cores: 1)
-spawned uWSGI worker 3 (pid: 1036, cores: 1)
-spawned uWSGI worker 4 (pid: 1037, cores: 1)
-spawned uWSGI worker 5 (pid: 1038, cores: 1)
+spawned uWSGI master process (pid: 7172)
+spawned uWSGI worker 1 (pid: 7173, cores: 1)
+spawned uWSGI worker 2 (pid: 7174, cores: 1)
+spawned uWSGI worker 3 (pid: 7175, cores: 1)
+spawned uWSGI worker 4 (pid: 7176, cores: 1)
+spawned uWSGI worker 5 (pid: 7177, cores: 1)
 --- no python application found, check your startup logs for errors ---
-[pid: 1036|app: -1|req: -1/1] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 7175|app: -1|req: -1/1] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:17 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1036|app: -1|req: -1/2] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 7175|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 615 bytes} [Fri Aug 18 21:21:18 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1036|app: -1|req: -1/3] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 7173|app: -1|req: -1/3] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1036|app: -1|req: -1/4] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 7174|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1038|app: -1|req: -1/5] 202.91.80.214 () {58 vars in 1024 bytes} [Tue Aug 15 14:00:53 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 7173|app: -1|req: -1/5] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:19 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1035|app: -1|req: -1/6] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:53 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 7173|app: -1|req: -1/6] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:20 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1037|app: -1|req: -1/7] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:00:57 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 7174|app: -1|req: -1/7] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:21 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1034|app: -1|req: -1/8] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:00:57 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 7175|app: -1|req: -1/8] 202.91.80.214 () {42 vars in 650 bytes} [Fri Aug 18 21:21:21 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7174|app: -1|req: -1/9] 192.241.207.42 () {34 vars in 430 bytes} [Fri Aug 18 21:21:38 2023] GET /manager/text/list => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+Fri Aug 18 21:24:55 2023 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Fri Aug 18 21:24:55 2023 - *** worker 1 suspended ***
+Fri Aug 18 21:24:55 2023 - *** worker 3 suspended ***
+Fri Aug 18 21:24:55 2023 - *** worker 2 suspended ***
+Fri Aug 18 21:24:55 2023 - *** worker 4 suspended ***
+Fri Aug 18 21:24:55 2023 - *** worker 5 suspended ***
 SIGINT/SIGTERM received...killing workers...
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
@@ -563,58 +159,105 @@ worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug 15 14:01:17 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Fri Aug 18 22:12:07 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
-nodename: shaunslib
+nodename: 819138c384d2
 machine: x86_64
 clock source: unix
 detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
+current working directory: /home/shaunslib
 detected binary path: /usr/local/bin/uwsgi
 !!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7844
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your memory page size is 4096 bytes
 detected max file descriptor number: 1024
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 *** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55ea845cc410
+Python main interpreter initialized at 0x556049cd6f40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 437424 bytes (427 KB) for 5 cores
 *** Operational MODE: preforking ***
 Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
     from app import app
-  File "./app.py", line 7, in <module>
+  File "/home/shaunslib/./app.py", line 7, in <module>
     db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
     engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
     return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
     return create_engine(url, **options)
   File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
     return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
     dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
     import psycopg2
 ModuleNotFoundError: No module named 'psycopg2'
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 1054)
-spawned uWSGI worker 1 (pid: 1055, cores: 1)
-spawned uWSGI worker 2 (pid: 1056, cores: 1)
-spawned uWSGI worker 3 (pid: 1057, cores: 1)
-spawned uWSGI worker 4 (pid: 1058, cores: 1)
-spawned uWSGI worker 5 (pid: 1059, cores: 1)
+spawned uWSGI master process (pid: 13486)
+spawned uWSGI worker 1 (pid: 13487, cores: 1)
+spawned uWSGI worker 2 (pid: 13488, cores: 1)
+spawned uWSGI worker 3 (pid: 13489, cores: 1)
+spawned uWSGI worker 4 (pid: 13490, cores: 1)
+spawned uWSGI worker 5 (pid: 13491, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 13491|app: -1|req: -1/1] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:11 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:12 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/3] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:13 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:14 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/5] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:16 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/6] 202.91.80.214 () {42 vars in 644 bytes} [Fri Aug 18 22:12:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/7] 202.91.80.214 () {42 vars in 737 bytes} [Fri Aug 18 22:12:37 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/8] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:37 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13489|app: -1|req: -1/9] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:39 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/10] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:39 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13489|app: -1|req: -1/11] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:40 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/12] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:40 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/13] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:40 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13489|app: -1|req: -1/14] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:40 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13489|app: -1|req: -1/15] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:40 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13489|app: -1|req: -1/16] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:40 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13488|app: -1|req: -1/17] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:40 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/18] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:40 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/19] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:12:41 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13487|app: -1|req: -1/20] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:12:41 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 SIGINT/SIGTERM received...killing workers...
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
@@ -622,62 +265,73 @@ worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug 15 14:06:09 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Fri Aug 18 22:15:15 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
-nodename: shaunslib
+nodename: 819138c384d2
 machine: x86_64
 clock source: unix
 detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
+current working directory: /home/shaunslib
 detected binary path: /usr/local/bin/uwsgi
 !!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7844
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your memory page size is 4096 bytes
 detected max file descriptor number: 1024
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 *** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x561ca58db410
+Python main interpreter initialized at 0x558a18a28f40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 437424 bytes (427 KB) for 5 cores
 *** Operational MODE: preforking ***
 Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
     from app import app
-  File "./app.py", line 7, in <module>
+  File "/home/shaunslib/./app.py", line 7, in <module>
     db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
     engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
     return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
     return create_engine(url, **options)
   File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
     return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
     dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
     import psycopg2
 ModuleNotFoundError: No module named 'psycopg2'
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 1104)
-spawned uWSGI worker 1 (pid: 1106, cores: 1)
-spawned uWSGI worker 2 (pid: 1107, cores: 1)
-spawned uWSGI worker 3 (pid: 1108, cores: 1)
-spawned uWSGI worker 4 (pid: 1109, cores: 1)
-spawned uWSGI worker 5 (pid: 1110, cores: 1)
+spawned uWSGI master process (pid: 13494)
+spawned uWSGI worker 1 (pid: 13495, cores: 1)
+spawned uWSGI worker 2 (pid: 13496, cores: 1)
+spawned uWSGI worker 3 (pid: 13497, cores: 1)
+spawned uWSGI worker 4 (pid: 13498, cores: 1)
+spawned uWSGI worker 5 (pid: 13499, cores: 1)
 --- no python application found, check your startup logs for errors ---
-[pid: 1110|app: -1|req: -1/1] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:24:59 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13499|app: -1|req: -1/1] 202.91.80.214 () {42 vars in 737 bytes} [Fri Aug 18 22:15:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1107|app: -1|req: -1/2] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:24:59 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13499|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:15:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13499|app: -1|req: -1/3] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:15:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13499|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:15:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 SIGINT/SIGTERM received...killing workers...
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
@@ -685,95 +339,420 @@ worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
-VACUUM: unix socket /home/bruikey03/shaunslib/app.sock removed.
-*** Starting uWSGI 2.0.22 (64bit) on [Tue Aug 15 14:27:47 2023] ***
-compiled with version: 10.2.1 20210110 on 01 August 2023 11:53:01
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Fri Aug 18 22:16:18 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
-nodename: shaunslib
+nodename: 819138c384d2
 machine: x86_64
 clock source: unix
 detected number of CPU cores: 2
-current working directory: /home/bruikey03/shaunslib
+current working directory: /home/shaunslib
 detected binary path: /usr/local/bin/uwsgi
 !!! no internal routing support, rebuild with pcre support !!!
-your processes number limit is 7844
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your memory page size is 4096 bytes
 detected max file descriptor number: 1024
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /home/bruikey03/shaunslib/app.sock fd 3
-Python version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 *** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55595f1aa410
+Python main interpreter initialized at 0x561a3ad07f40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 437424 bytes (427 KB) for 5 cores
 *** Operational MODE: preforking ***
 Traceback (most recent call last):
-  File "./wsgi.py", line 1, in <module>
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
     from app import app
-  File "./app.py", line 7, in <module>
+  File "/home/shaunslib/./app.py", line 7, in <module>
     db.init_app(app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
     engines[key] = self._make_engine(key, options, app)
-  File "/usr/local/lib/python3.9/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
     return sa.engine_from_config(options, prefix="")
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
     return create_engine(url, **options)
   File "<string>", line 2, in create_engine
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
     return fn(*args, **kwargs)  # type: ignore[no-any-return]
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
     dbapi = dbapi_meth(**dbapi_args)
-  File "/usr/local/lib/python3.9/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
     import psycopg2
 ModuleNotFoundError: No module named 'psycopg2'
 unable to load app 0 (mountpoint='') (callable not found or import error)
 *** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 1225)
-spawned uWSGI worker 1 (pid: 1228, cores: 1)
-spawned uWSGI worker 2 (pid: 1229, cores: 1)
-spawned uWSGI worker 3 (pid: 1230, cores: 1)
-spawned uWSGI worker 4 (pid: 1231, cores: 1)
-spawned uWSGI worker 5 (pid: 1232, cores: 1)
+spawned uWSGI master process (pid: 13523)
+spawned uWSGI worker 1 (pid: 13524, cores: 1)
+spawned uWSGI worker 2 (pid: 13525, cores: 1)
+spawned uWSGI worker 3 (pid: 13526, cores: 1)
+spawned uWSGI worker 4 (pid: 13527, cores: 1)
+spawned uWSGI worker 5 (pid: 13528, cores: 1)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/1] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 14:29:33 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/1] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:23 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/2] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 14:29:33 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:23 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/3] 162.243.141.14 () {38 vars in 573 bytes} [Tue Aug 15 14:50:05 2023] GET /owa/auth/x.js => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/3] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:23 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/4] 128.199.109.77 () {36 vars in 420 bytes} [Tue Aug 15 15:06:25 2023] GET /ab2g => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:23 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/5] 128.199.109.77 () {36 vars in 420 bytes} [Tue Aug 15 15:06:25 2023] GET /ab2h => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13526|app: -1|req: -1/5] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/6] 128.199.109.77 () {36 vars in 502 bytes} [Tue Aug 15 15:06:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13526|app: -1|req: -1/6] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:24 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/7] 128.199.109.77 () {36 vars in 406 bytes} [Tue Aug 15 15:06:27 2023] GET /t4 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13526|app: -1|req: -1/7] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/8] 128.199.109.77 () {36 vars in 524 bytes} [Tue Aug 15 15:06:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13526|app: -1|req: -1/8] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:24 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/9] 128.199.109.77 () {40 vars in 584 bytes} [Tue Aug 15 15:06:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+[pid: 13526|app: -1|req: -1/9] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1230|app: -1|req: -1/10] 162.243.137.18 () {36 vars in 426 bytes} [Tue Aug 15 15:09:14 2023] GET /version => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/10] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:24 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/11] 172.104.11.46 () {36 vars in 504 bytes} [Tue Aug 15 15:48:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/11] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:24 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/12] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 15:50:50 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13526|app: -1|req: -1/12] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:25 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1230|app: -1|req: -1/13] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 15:50:50 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/13] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:25 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1230|app: -1|req: -1/14] 202.91.80.214 () {60 vars in 1055 bytes} [Tue Aug 15 15:51:18 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/14] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:25 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/15] 202.91.80.214 () {56 vars in 960 bytes} [Tue Aug 15 15:51:18 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/15] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:25 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1230|app: -1|req: -1/16] 202.91.80.214 () {52 vars in 787 bytes} [Tue Aug 15 15:52:05 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/16] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:25 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/17] 202.91.80.214 () {50 vars in 734 bytes} [Tue Aug 15 15:52:05 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/17] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:25 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1232|app: -1|req: -1/18] 202.91.80.214 () {52 vars in 787 bytes} [Tue Aug 15 15:55:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/18] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:25 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1231|app: -1|req: -1/19] 202.91.80.214 () {52 vars in 787 bytes} [Tue Aug 15 16:24:36 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13524|app: -1|req: -1/19] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
 --- no python application found, check your startup logs for errors ---
-[pid: 1228|app: -1|req: -1/20] 202.91.80.214 () {50 vars in 734 bytes} [Tue Aug 15 16:24:36 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[pid: 13525|app: -1|req: -1/20] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:26 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/21] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/22] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:26 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/23] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/24] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:26 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/25] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:26 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/26] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:26 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/27] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:27 2023] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/28] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13528|app: -1|req: -1/29] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13528|app: -1|req: -1/30] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13524|app: -1|req: -1/31] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:27 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13526|app: -1|req: -1/32] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:27 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13525|app: -1|req: -1/33] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13527|app: -1|req: -1/34] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13527|app: -1|req: -1/35] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13527|app: -1|req: -1/36] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13527|app: -1|req: -1/37] 202.91.80.214 () {44 vars in 768 bytes} [Fri Aug 18 22:16:28 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13527|app: -1|req: -1/38] 202.91.80.214 () {42 vars in 691 bytes} [Fri Aug 18 22:16:28 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 04:11:56 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
+os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
+nodename: 819138c384d2
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e899aaade0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/shaunslib/./app.py", line 7, in <module>
+    db.init_app(app)
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+    engines[key] = self._make_engine(key, options, app)
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+    return sa.engine_from_config(options, prefix="")
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13580)
+spawned uWSGI worker 1 (pid: 13581, cores: 1)
+spawned uWSGI worker 2 (pid: 13582, cores: 1)
+spawned uWSGI worker 3 (pid: 13583, cores: 1)
+spawned uWSGI worker 4 (pid: 13584, cores: 1)
+spawned uWSGI worker 5 (pid: 13585, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 13585|app: -1|req: -1/1] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:02 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13581|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:02 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/3] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:03 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13581|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:03 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/5] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:03 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/6] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:03 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/7] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:03 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/8] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:03 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/9] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/10] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:04 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/11] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:12:04 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13582|app: -1|req: -1/12] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:12:04 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 04:15:52 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
+os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
+nodename: 819138c384d2
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555d0ef11de0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/shaunslib/./app.py", line 7, in <module>
+    db.init_app(app)
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 329, in init_app
+    engines[key] = self._make_engine(key, options, app)
+  File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 617, in _make_engine
+    return sa.engine_from_config(options, prefix="")
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 803, in engine_from_config
+    return create_engine(url, **options)
+  File "<string>", line 2, in create_engine
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 601, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 690, in import_dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13610)
+spawned uWSGI worker 1 (pid: 13611, cores: 1)
+spawned uWSGI worker 2 (pid: 13612, cores: 1)
+spawned uWSGI worker 3 (pid: 13613, cores: 1)
+spawned uWSGI worker 4 (pid: 13614, cores: 1)
+spawned uWSGI worker 5 (pid: 13615, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 13613|app: -1|req: -1/1] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:15:56 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13611|app: -1|req: -1/2] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:15:56 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13612|app: -1|req: -1/3] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:15:57 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 13611|app: -1|req: -1/4] 202.91.80.214 () {42 vars in 691 bytes} [Sat Aug 19 04:15:57 2023] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 04:27:43 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
+os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
+nodename: 819138c384d2
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ecfb075de0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ecfb075de0 pid: 13859 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13859)
+spawned uWSGI worker 1 (pid: 13860, cores: 1)
+spawned uWSGI worker 2 (pid: 13861, cores: 1)
+spawned uWSGI worker 3 (pid: 13862, cores: 1)
+spawned uWSGI worker 4 (pid: 13863, cores: 1)
+spawned uWSGI worker 5 (pid: 13864, cores: 1)
+[pid: 13864|app: 0|req: 1/1] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:27:47 2023] GET / => generated 863 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13863|app: 0|req: 1/2] 202.91.80.214 () {42 vars in 655 bytes} [Sat Aug 19 04:27:47 2023] GET /static/style.css => generated 1332 bytes in 18 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 13864|app: 0|req: 2/3] 202.91.80.214 () {42 vars in 707 bytes} [Sat Aug 19 04:27:47 2023] GET /static/yuri_boi.png => generated 149148 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 13864|app: 0|req: 3/4] 202.91.80.214 () {42 vars in 705 bytes} [Sat Aug 19 04:27:48 2023] GET /static/favicon.ico => generated 4286 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 13864|app: 0|req: 4/5] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:27:50 2023] GET / => generated 863 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13864|app: 0|req: 5/6] 202.91.80.214 () {46 vars in 768 bytes} [Sat Aug 19 04:27:50 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 13862|app: 0|req: 1/7] 202.91.80.214 () {46 vars in 822 bytes} [Sat Aug 19 04:27:50 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 13861|app: 0|req: 1/8] 202.91.80.214 () {46 vars in 818 bytes} [Sat Aug 19 04:27:50 2023] GET /static/favicon.ico => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 186 bytes (0 switches on core 0)
+[pid: 13861|app: 0|req: 2/9] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:27:50 2023] GET / => generated 863 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13863|app: 0|req: 2/10] 202.91.80.214 () {46 vars in 822 bytes} [Sat Aug 19 04:27:51 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 13860|app: 0|req: 1/11] 202.91.80.214 () {46 vars in 768 bytes} [Sat Aug 19 04:27:51 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 13861|app: 0|req: 3/12] 202.91.80.214 () {46 vars in 818 bytes} [Sat Aug 19 04:27:51 2023] GET /static/favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 186 bytes (0 switches on core 0)
+[pid: 13864|app: 0|req: 6/13] 202.91.80.214 () {52 vars in 967 bytes} [Sat Aug 19 04:28:02 2023] POST /login => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 13862|app: 0|req: 2/14] 202.91.80.214 () {42 vars in 696 bytes} [Sat Aug 19 04:28:02 2023] GET /favicon.ico => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 04:31:44 2023] ***
+compiled with version: 11.4.0 on 18 August 2023 19:56:29
+os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
+nodename: 819138c384d2
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/shaunslib
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fe16eecde0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fe16eecde0 pid: 13883 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13883)
+spawned uWSGI worker 1 (pid: 13884, cores: 1)
+spawned uWSGI worker 2 (pid: 13885, cores: 1)
+spawned uWSGI worker 3 (pid: 13886, cores: 1)
+spawned uWSGI worker 4 (pid: 13887, cores: 1)
+spawned uWSGI worker 5 (pid: 13888, cores: 1)
+[pid: 13887|app: 0|req: 1/1] 202.91.80.214 () {44 vars in 768 bytes} [Sat Aug 19 04:31:47 2023] GET / => generated 863 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 13888|app: 0|req: 1/2] 202.91.80.214 () {46 vars in 768 bytes} [Sat Aug 19 04:31:47 2023] GET /static/style.css => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 13884|app: 0|req: 1/3] 202.91.80.214 () {46 vars in 822 bytes} [Sat Aug 19 04:31:47 2023] GET /static/yuri_boi.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 13886|app: 0|req: 1/4] 202.91.80.214 () {46 vars in 818 bytes} [Sat Aug 19 04:31:47 2023] GET /static/favicon.ico => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 186 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
