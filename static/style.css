@@ -38,10 +38,11 @@ body {
 .login-section {
   background-color: #ffb085;
   padding: 20px;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  
 }
 
 .login-section h2 {
@@ -53,10 +54,12 @@ body {
 .login-section form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-section input {
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -75,4 +78,12 @@ body {
 
 .login-section button:hover {
   background-color: #1c4144;
+}
+
+.login-section a {
+  text-decoration: none;
+}
+
+.register-link {
+  display: inline-block;
 }
