@@ -84,3 +84,890 @@ worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
 unlink(): No such file or directory [core/uwsgi.c line 1662]
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 16:29:31 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557072b640c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557072b640c0 pid: 52679 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 52679)
+spawned uWSGI worker 1 (pid: 52683, cores: 1)
+spawned uWSGI worker 2 (pid: 52684, cores: 1)
+spawned uWSGI worker 3 (pid: 52685, cores: 1)
+spawned uWSGI worker 4 (pid: 52686, cores: 1)
+spawned uWSGI worker 5 (pid: 52688, cores: 1)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 16:46:54 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563dea63e0c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563dea63e0c0 pid: 57055 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 57055)
+spawned uWSGI worker 1 (pid: 57058, cores: 1)
+spawned uWSGI worker 2 (pid: 57059, cores: 1)
+spawned uWSGI worker 3 (pid: 57060, cores: 1)
+spawned uWSGI worker 4 (pid: 57061, cores: 1)
+spawned uWSGI worker 5 (pid: 57062, cores: 1)
+[pid: 57060|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 16:47:15 2023] GET / => generated 863 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 1/2] 127.0.0.1 () {48 vars in 695 bytes} [Sat Aug 19 16:47:16 2023] GET /static/style.css => generated 1332 bytes in 24 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 57061|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 708 bytes} [Sat Aug 19 16:47:16 2023] GET /static/yuri_boi.png => generated 149148 bytes in 31 msecs via sendfile() (HTTP/1.1 200) 7 headers in 274 bytes (0 switches on core 0)
+[pid: 57061|app: 0|req: 2/4] 127.0.0.1 () {48 vars in 706 bytes} [Sat Aug 19 16:47:16 2023] GET /static/favicon.ico => generated 4286 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 284 bytes (0 switches on core 0)
+[pid: 57062|app: 0|req: 2/5] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 16:47:19 2023] POST /login => generated 207 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 16:48:14 2023] GET / => generated 863 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 4/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 16:48:14 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 57062|app: 0|req: 5/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 16:48:15 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 57060|app: 0|req: 2/9] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 16:48:21 2023] POST /login => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 6/10] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 16:57:43 2023] GET / => generated 863 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57061|app: 0|req: 3/11] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 16:57:44 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 57062|app: 0|req: 7/12] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 16:57:44 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 57061|app: 0|req: 4/13] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 16:57:45 2023] POST /login => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 8/14] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 16:59:41 2023] GET / => generated 863 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 9/15] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 16:59:41 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 57061|app: 0|req: 5/16] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 16:59:41 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 57062|app: 0|req: 10/17] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 16:59:42 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 11/18] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:00:31 2023] GET / => generated 863 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57061|app: 0|req: 6/19] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:00:31 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 57061|app: 0|req: 7/20] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:00:31 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 57062|app: 0|req: 12/21] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:00:32 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 13/22] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:01:11 2023] GET / => generated 863 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 57062|app: 0|req: 14/23] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:01:11 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (1 switches on core 0)
+[pid: 57061|app: 0|req: 8/24] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:01:11 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:01:28 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56503452d0c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56503452d0c0 pid: 60094 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 60094)
+spawned uWSGI worker 1 (pid: 60096, cores: 1)
+spawned uWSGI worker 2 (pid: 60097, cores: 1)
+spawned uWSGI worker 3 (pid: 60098, cores: 1)
+spawned uWSGI worker 4 (pid: 60099, cores: 1)
+spawned uWSGI worker 5 (pid: 60100, cores: 1)
+[pid: 60098|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:01:32 2023] GET / => generated 878 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60098|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:01:32 2023] GET /static/style.css => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60100|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:01:32 2023] GET /static/yuri_boi.png => generated 0 bytes in 39 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60098|app: 0|req: 3/4] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:01:33 2023] POST /login => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60098|app: 0|req: 4/5] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:01:42 2023] GET / => generated 878 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60100|app: 0|req: 2/6] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:01:42 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60098|app: 0|req: 5/7] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:01:42 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60098|app: 0|req: 6/8] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:01:44 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:03:04 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5617bd0a60b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5617bd0a60b0 pid: 60531 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 60531)
+spawned uWSGI worker 1 (pid: 60533, cores: 1)
+spawned uWSGI worker 2 (pid: 60534, cores: 1)
+spawned uWSGI worker 3 (pid: 60535, cores: 1)
+spawned uWSGI worker 4 (pid: 60536, cores: 1)
+spawned uWSGI worker 5 (pid: 60537, cores: 1)
+[pid: 60534|app: 0|req: 1/1] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:03:10 2023] POST /login => generated 207 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60534|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:03:13 2023] GET / => generated 878 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:03:14 2023] GET /static/style.css => generated 0 bytes in 25 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 2/4] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:03:14 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 3/5] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:03:15 2023] POST /login => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 4/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:05:44 2023] GET / => generated 878 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 5/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:05:44 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 6/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:05:44 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 7/9] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:05:49 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 8/10] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:05:59 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 9/11] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:06:02 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60536|app: 0|req: 1/12] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:07:17 2023] POST /login => generated 207 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60536|app: 0|req: 2/13] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:08:28 2023] POST /login => generated 207 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60536|app: 0|req: 3/14] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:08:31 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60535|app: 0|req: 1/15] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:08:33 2023] POST /login => generated 207 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 10/16] 127.0.0.1 () {46 vars in 662 bytes} [Sat Aug 19 17:08:33 2023] GET /static/style.css => generated 1332 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 11/17] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:09:16 2023] GET / => generated 878 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 12/18] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:09:16 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 13/19] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:09:17 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60536|app: 0|req: 4/20] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:09:18 2023] POST /login => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60533|app: 0|req: 1/21] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:12:24 2023] GET / => generated 878 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 14/22] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:12:24 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 15/23] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:12:24 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60537|app: 0|req: 16/24] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:12:29 2023] GET /templates/signup.html => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 17/25] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:12:33 2023] GET /templates/signup.html => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60537|app: 0|req: 18/26] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:12:50 2023] GET /templates/signup.html => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 60535|app: 0|req: 2/27] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:12:54 2023] GET / => generated 878 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 60536|app: 0|req: 5/28] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:12:54 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 60534|app: 0|req: 3/29] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:12:54 2023] GET /static/yuri_boi.png => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 60534|app: 0|req: 4/30] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:12:55 2023] GET /templates/signup.html => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:18:04 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562028be70b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562028be70b0 pid: 63846 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 63846)
+spawned uWSGI worker 1 (pid: 63851, cores: 1)
+spawned uWSGI worker 2 (pid: 63852, cores: 1)
+spawned uWSGI worker 3 (pid: 63853, cores: 1)
+spawned uWSGI worker 4 (pid: 63854, cores: 1)
+spawned uWSGI worker 5 (pid: 63855, cores: 1)
+[pid: 63854|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:18:11 2023] GET / => generated 878 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:18:11 2023] GET /static/style.css => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:18:11 2023] GET /static/yuri_boi.png => generated 0 bytes in 25 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 3/4] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:18:14 2023] GET /templates/signup.html => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 2/5] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:18:51 2023] GET / => generated 840 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 3/6] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:18:51 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 1/7] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:18:51 2023] GET /static/yuri_boi.png => generated 0 bytes in 25 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 2/8] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:18:52 2023] GET / => generated 840 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 4/9] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:18:52 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 5/10] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:18:52 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 3/11] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:18:55 2023] POST /login => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 4/12] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:19:11 2023] POST /login => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 63852|app: 0|req: 1/13] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:19:34 2023] GET / => generated 840 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 6/14] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:19:35 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 4/15] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:19:35 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63851|app: 0|req: 1/16] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:22:54 2023] GET / => generated 800 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 7/17] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:22:54 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 5/18] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:22:54 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 6/19] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:22:57 2023] GET /signup => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 7/20] 127.0.0.1 () {48 vars in 693 bytes} [Sat Aug 19 17:22:58 2023] GET /static/js/signup.js => generated 636 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 5/21] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:23:09 2023] GET /signup => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 8/22] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:23:09 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 8/23] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:23:12 2023] GET /signup => generated 630 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63853|app: 0|req: 6/24] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:23:12 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 9/25] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:23:15 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 10/26] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:23:15 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 7/27] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:24:08 2023] GET / => generated 840 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63853|app: 0|req: 8/28] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:24:08 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 11/29] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:24:08 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 9/30] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:24:14 2023] GET / => generated 840 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 12/31] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:24:14 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 10/32] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:24:14 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 13/33] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:24:33 2023] GET / => generated 878 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 14/34] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:24:33 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 11/35] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:24:33 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 15/36] 127.0.0.1 () {52 vars in 836 bytes} [Sat Aug 19 17:24:34 2023] GET /templates/signup.html => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 63855|app: 0|req: 12/37] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:26:00 2023] GET / => generated 840 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 16/38] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:26:00 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63853|app: 0|req: 9/39] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:26:00 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 63855|app: 0|req: 13/40] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:26:04 2023] GET / => generated 840 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 63854|app: 0|req: 17/41] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:26:05 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 63854|app: 0|req: 18/42] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:26:05 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:26:18 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a7f9adc0b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a7f9adc0b0 pid: 65725 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 65725)
+spawned uWSGI worker 1 (pid: 65727, cores: 1)
+spawned uWSGI worker 2 (pid: 65728, cores: 1)
+spawned uWSGI worker 3 (pid: 65729, cores: 1)
+spawned uWSGI worker 4 (pid: 65730, cores: 1)
+spawned uWSGI worker 5 (pid: 65731, cores: 1)
+[pid: 65728|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:26:22 2023] GET / => generated 800 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65728|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:26:23 2023] GET /static/style.css => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:26:23 2023] GET /static/yuri_boi.png => generated 0 bytes in 27 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65729|app: 0|req: 1/4] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:26:24 2023] GET /signup => generated 630 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65730|app: 0|req: 1/5] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:26:25 2023] GET /static/js/signup.js => generated 0 bytes in 22 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 2/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:31:18 2023] GET / => generated 800 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65728|app: 0|req: 3/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:31:18 2023] GET /static/style.css => generated 1379 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 65729|app: 0|req: 2/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:31:18 2023] GET /static/yuri_boi.png => generated 0 bytes in 20 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 2/9] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:31:19 2023] GET / => generated 800 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65731|app: 0|req: 3/10] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:31:19 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 3/11] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:31:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 4/12] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:31:22 2023] GET /signup => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65731|app: 0|req: 4/13] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:31:22 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 5/14] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:31:25 2023] GET /signup => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65731|app: 0|req: 6/15] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:31:26 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 5/16] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:34:26 2023] GET / => generated 800 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65730|app: 0|req: 6/17] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:34:26 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 7/18] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:34:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 7/19] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:34:27 2023] GET / => generated 800 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65730|app: 0|req: 8/20] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:34:27 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 8/21] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:34:28 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 9/22] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:34:29 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65727|app: 0|req: 1/23] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:34:29 2023] GET /static/js/signup.js => generated 0 bytes in 27 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 65730|app: 0|req: 9/24] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:34:35 2023] GET / => generated 800 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65731|app: 0|req: 10/25] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:34:35 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 11/26] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:34:35 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 12/27] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:34:45 2023] GET / => generated 800 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65730|app: 0|req: 10/28] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:34:45 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 65729|app: 0|req: 3/29] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:34:45 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 65731|app: 0|req: 13/30] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:34:47 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 65729|app: 0|req: 4/31] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:34:48 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:34:53 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b5033e30b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b5033e30b0 pid: 67627 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 67627)
+spawned uWSGI worker 1 (pid: 67629, cores: 1)
+spawned uWSGI worker 2 (pid: 67630, cores: 1)
+spawned uWSGI worker 3 (pid: 67631, cores: 1)
+spawned uWSGI worker 4 (pid: 67632, cores: 1)
+spawned uWSGI worker 5 (pid: 67633, cores: 1)
+[pid: 67633|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:34:56 2023] GET / => generated 807 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 67631|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:34:56 2023] GET /static/style.css => generated 0 bytes in 28 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 67631|app: 0|req: 2/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:34:56 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 67632|app: 0|req: 1/4] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:34:57 2023] GET /signup => generated 630 bytes in 29 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 67633|app: 0|req: 2/5] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:34:58 2023] GET /static/js/signup.js => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 67633|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:37:34 2023] GET / => generated 807 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 67633|app: 0|req: 4/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:37:34 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 67633|app: 0|req: 5/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:37:34 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:37:41 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5628c5ff40b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5628c5ff40b0 pid: 68352 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68352)
+spawned uWSGI worker 1 (pid: 68363, cores: 1)
+spawned uWSGI worker 2 (pid: 68365, cores: 1)
+spawned uWSGI worker 3 (pid: 68366, cores: 1)
+spawned uWSGI worker 4 (pid: 68367, cores: 1)
+spawned uWSGI worker 5 (pid: 68368, cores: 1)
+[pid: 68366|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:37:44 2023] GET / => generated 837 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68363|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:37:44 2023] GET /static/style.css => generated 0 bytes in 24 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68363|app: 0|req: 2/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:37:44 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 68368|app: 0|req: 1/4] 127.0.0.1 () {58 vars in 950 bytes} [Sat Aug 19 17:37:46 2023] POST /login => generated 207 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 68366|app: 0|req: 2/5] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:37:48 2023] GET /signup => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68366|app: 0|req: 3/6] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:37:48 2023] GET /static/js/signup.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:39:49 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a7880440b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a7880440b0 pid: 68765 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68765)
+spawned uWSGI worker 1 (pid: 68767, cores: 1)
+spawned uWSGI worker 2 (pid: 68768, cores: 1)
+spawned uWSGI worker 3 (pid: 68769, cores: 1)
+spawned uWSGI worker 4 (pid: 68770, cores: 1)
+spawned uWSGI worker 5 (pid: 68771, cores: 1)
+[pid: 68771|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:39:57 2023] GET / => generated 837 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68771|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:39:57 2023] GET /static/style.css => generated 1404 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:39:57 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:39:58 2023] GET / => generated 837 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68771|app: 0|req: 5/5] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:39:58 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 6/6] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:39:58 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 68770|app: 0|req: 1/7] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:39:59 2023] GET /signup => generated 630 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68770|app: 0|req: 2/8] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:40:00 2023] GET /static/js/signup.js => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 7/9] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:40:01 2023] GET / => generated 837 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68771|app: 0|req: 8/10] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:40:02 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 9/11] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:40:02 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 10/12] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:40:10 2023] GET / => generated 837 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68770|app: 0|req: 3/13] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:40:10 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 11/14] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:40:10 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 68771|app: 0|req: 12/15] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:40:11 2023] GET / => generated 837 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68771|app: 0|req: 13/16] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:40:11 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68770|app: 0|req: 4/17] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:40:11 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:40:21 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556a8503b0b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556a8503b0b0 pid: 68968 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68968)
+spawned uWSGI worker 1 (pid: 68987, cores: 1)
+spawned uWSGI worker 2 (pid: 68988, cores: 1)
+spawned uWSGI worker 3 (pid: 68989, cores: 1)
+spawned uWSGI worker 4 (pid: 68990, cores: 1)
+spawned uWSGI worker 5 (pid: 68991, cores: 1)
+[pid: 68991|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:40:24 2023] GET / => generated 837 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 68991|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:40:25 2023] GET /static/style.css => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 68990|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:40:25 2023] GET /static/yuri_boi.png => generated 0 bytes in 26 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:42:11 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55be95a1f0b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55be95a1f0b0 pid: 69469 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69469)
+spawned uWSGI worker 1 (pid: 69482, cores: 1)
+spawned uWSGI worker 2 (pid: 69483, cores: 1)
+spawned uWSGI worker 3 (pid: 69484, cores: 1)
+spawned uWSGI worker 4 (pid: 69485, cores: 1)
+spawned uWSGI worker 5 (pid: 69486, cores: 1)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 17:42:13 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559d43d650b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559d43d650b0 pid: 69508 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69508)
+spawned uWSGI worker 1 (pid: 69510, cores: 1)
+spawned uWSGI worker 2 (pid: 69511, cores: 1)
+spawned uWSGI worker 3 (pid: 69512, cores: 1)
+spawned uWSGI worker 4 (pid: 69513, cores: 1)
+spawned uWSGI worker 5 (pid: 69514, cores: 1)
+[pid: 69512|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:42:19 2023] GET / => generated 881 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69512|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:42:19 2023] GET /static/style.css => generated 1424 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (1 switches on core 0)
+[pid: 69512|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:42:19 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 1/4] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:42:21 2023] GET / => generated 881 bytes in 28 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 2/5] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:42:21 2023] GET /static/yuri_boi.png => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:42:22 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 1/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:42:22 2023] GET /static/style.css => generated 0 bytes in 30 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 2/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:42:22 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 4/9] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:42:26 2023] GET /signup => generated 630 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 5/10] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:42:27 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 6/11] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:42:30 2023] GET / => generated 881 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 7/12] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:42:30 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 8/13] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:42:30 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 3/14] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:00 2023] GET / => generated 881 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 4/15] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:00 2023] GET /static/style.css => generated 1425 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 9/16] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:00 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 10/17] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:02 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 11/18] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:02 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 12/19] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:02 2023] GET /static/yuri_boi.png => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 5/20] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:09 2023] GET / => generated 881 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 13/21] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:09 2023] GET /static/style.css => generated 1424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 280 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 14/22] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:09 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 6/23] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:25 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 7/24] 127.0.0.1 () {52 vars in 807 bytes} [Sat Aug 19 17:43:25 2023] GET /static/style.css => generated 1425 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 15/25] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:25 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 16/26] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:26 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 8/27] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:26 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 17/28] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:26 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 9/29] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:33 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 18/30] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:33 2023] GET /static/style.css => generated 1424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 10/31] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:33 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 19/32] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:43 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 20/33] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:43 2023] GET /static/style.css => generated 1424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 21/34] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:43 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 11/35] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:54 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 22/36] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:43:54 2023] GET /static/style.css => generated 1424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 280 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 23/37] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:54 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 12/38] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:43:56 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69512|app: 0|req: 4/39] 127.0.0.1 () {52 vars in 807 bytes} [Sat Aug 19 17:43:56 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 24/40] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:43:57 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 13/41] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:44:02 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 14/42] 127.0.0.1 () {52 vars in 807 bytes} [Sat Aug 19 17:44:02 2023] GET /static/style.css => generated 1424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 25/43] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:44:02 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 15/44] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:46:41 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 26/45] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:46:41 2023] GET /static/style.css => generated 1474 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 16/46] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:46:41 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 27/47] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:46:42 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 28/48] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:46:42 2023] GET /static/style.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 29/49] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:46:42 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 30/50] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:47:06 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 31/51] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:47:07 2023] GET /static/style.css => generated 1477 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 32/52] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:47:07 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 33/53] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:47:07 2023] GET / => generated 881 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 34/54] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:47:07 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 35/55] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:47:08 2023] GET /static/yuri_boi.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 17/56] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:47:20 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69512|app: 0|req: 5/57] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:47:20 2023] GET /static/style.css => generated 1527 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 18/58] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:47:20 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 19/59] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:47:49 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 20/60] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:47:49 2023] GET /static/style.css => generated 1477 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 36/61] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:47:49 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 37/62] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:48:49 2023] GET / => generated 881 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 38/63] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:48:49 2023] GET /static/style.css => generated 1478 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 21/64] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:48:49 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 39/65] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:49:10 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 22/66] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:49:10 2023] GET /static/style.css => generated 1478 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 23/67] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:49:10 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 40/68] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:49:25 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 24/69] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 17:49:25 2023] GET /static/style.css => generated 1478 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 280 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 25/70] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:49:25 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69512|app: 0|req: 6/71] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:50:15 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69513|app: 0|req: 26/72] 127.0.0.1 () {52 vars in 807 bytes} [Sat Aug 19 17:50:16 2023] GET /static/style.css => generated 1479 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 41/73] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:50:16 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69512|app: 0|req: 7/74] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:50:16 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 42/75] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:50:16 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 27/76] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:50:16 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69512|app: 0|req: 8/77] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 17:50:25 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 43/78] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:50:25 2023] GET /static/style.css => generated 1478 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 44/79] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 17:50:25 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 45/80] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:51:03 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 46/81] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:51:03 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 47/82] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 17:51:06 2023] GET /signup => generated 630 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 48/83] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 17:51:06 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 69513|app: 0|req: 28/84] 127.0.0.1 () {52 vars in 945 bytes} [Sat Aug 19 17:54:59 2023] GET /signup?username=shauneth03&email=shauneth03%40gmail.com&password=21ebf225 => generated 630 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 49/85] 127.0.0.1 () {52 vars in 872 bytes} [Sat Aug 19 17:54:59 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 69514|app: 0|req: 50/86] 127.0.0.1 () {52 vars in 1010 bytes} [Sat Aug 19 18:13:39 2023] GET /signup?username=shauneth03&email=bruikey03%40gmail.com&password=21ebf225 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 69514|app: 0|req: 51/87] 127.0.0.1 () {52 vars in 871 bytes} [Sat Aug 19 18:13:40 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 18:16:17 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56202a0120b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56202a0120b0 pid: 75892 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 75892)
+spawned uWSGI worker 1 (pid: 75907, cores: 1)
+spawned uWSGI worker 2 (pid: 75908, cores: 1)
+spawned uWSGI worker 3 (pid: 75909, cores: 1)
+spawned uWSGI worker 4 (pid: 75910, cores: 1)
+spawned uWSGI worker 5 (pid: 75911, cores: 1)
+[pid: 75911|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 1010 bytes} [Sat Aug 19 18:16:25 2023] GET /signup?username=shauneth03&email=bruikey03%40gmail.com&password=21ebf225 => generated 630 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 871 bytes} [Sat Aug 19 18:16:25 2023] GET /static/js/signup.js => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 75911|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:16:29 2023] GET / => generated 881 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 4/4] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 18:16:29 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 75910|app: 0|req: 1/5] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 18:16:29 2023] GET /static/yuri_boi.png => generated 0 bytes in 26 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 75910|app: 0|req: 2/6] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:16:30 2023] GET / => generated 881 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 5/7] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 18:16:30 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 75907|app: 0|req: 1/8] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 18:16:30 2023] GET /static/yuri_boi.png => generated 0 bytes in 26 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 75911|app: 0|req: 6/9] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:16:31 2023] GET / => generated 881 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 7/10] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 18:16:31 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 75911|app: 0|req: 8/11] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 18:16:31 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 75911|app: 0|req: 9/12] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 18:16:33 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 10/13] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 18:16:33 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 75911|app: 0|req: 11/14] 127.0.0.1 () {52 vars in 971 bytes} [Sat Aug 19 18:16:47 2023] GET /signup?username=shauneth03&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 75911|app: 0|req: 12/15] 127.0.0.1 () {52 vars in 885 bytes} [Sat Aug 19 18:16:48 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 18:31:41 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562108a3f0b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/shaunslib/./wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/shaunslib/./app.py", line 2, in <module>
+    from models import db, User
+  File "/home/shaunslib/./models.py", line 5, in <module>
+    class User(db.Model):
+  File "/home/shaunslib/./models.py", line 8, in User
+    email=db.Column(db.strings(120), unique=True, nullable=False)
+  File "/home/shaun0_03/.local/lib/python3.10/site-packages/flask_sqlalchemy/extension.py", line 1008, in __getattr__
+    raise AttributeError(name)
+AttributeError: strings
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 78713)
+spawned uWSGI worker 1 (pid: 78715, cores: 1)
+spawned uWSGI worker 2 (pid: 78716, cores: 1)
+spawned uWSGI worker 3 (pid: 78717, cores: 1)
+spawned uWSGI worker 4 (pid: 78718, cores: 1)
+spawned uWSGI worker 5 (pid: 78719, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 78716|app: -1|req: -1/1] 127.0.0.1 () {52 vars in 971 bytes} [Sat Aug 19 18:31:52 2023] GET /signup?username=shauneth03&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78719|app: -1|req: -1/2] 127.0.0.1 () {52 vars in 971 bytes} [Sat Aug 19 18:31:53 2023] GET /signup?username=shauneth03&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78719|app: -1|req: -1/3] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:33:54 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78718|app: -1|req: -1/4] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:33:57 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78717|app: -1|req: -1/5] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:33:59 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78719|app: -1|req: -1/6] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:33:59 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78717|app: -1|req: -1/7] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:34:00 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78719|app: -1|req: -1/8] 127.0.0.1 () {50 vars in 754 bytes} [Sat Aug 19 18:34:00 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78717|app: -1|req: -1/9] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:34:35 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 78718|app: -1|req: -1/10] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:34:42 2023] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 18:41:30 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564797f940b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x564797f940b0 pid: 80821 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 80821)
+spawned uWSGI worker 1 (pid: 80826, cores: 1)
+spawned uWSGI worker 2 (pid: 80827, cores: 1)
+spawned uWSGI worker 3 (pid: 80828, cores: 1)
+spawned uWSGI worker 4 (pid: 80829, cores: 1)
+spawned uWSGI worker 5 (pid: 80830, cores: 1)
+[pid: 80826|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 18:41:37 2023] GET / => generated 881 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 80829|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 18:41:37 2023] GET /static/style.css => generated 0 bytes in 19 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 80826|app: 0|req: 2/3] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 18:41:37 2023] GET /static/yuri_boi.png => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 80826|app: 0|req: 3/4] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 18:41:40 2023] GET /signup => generated 630 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 80826|app: 0|req: 4/5] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 18:41:40 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 80829|app: 0|req: 2/6] 127.0.0.1 () {52 vars in 967 bytes} [Sat Aug 19 18:41:56 2023] GET /signup?username=shauneth&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 80826|app: 0|req: 5/7] 127.0.0.1 () {52 vars in 883 bytes} [Sat Aug 19 18:41:57 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 18:46:18 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5593361250b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5593361250b0 pid: 81832 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 81832)
+spawned uWSGI worker 1 (pid: 81833, cores: 1)
+spawned uWSGI worker 2 (pid: 81834, cores: 1)
+spawned uWSGI worker 3 (pid: 81835, cores: 1)
+spawned uWSGI worker 4 (pid: 81836, cores: 1)
+spawned uWSGI worker 5 (pid: 81837, cores: 1)
+[pid: 81833|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 967 bytes} [Sat Aug 19 18:46:24 2023] GET /signup?username=shauneth&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 883 bytes} [Sat Aug 19 18:46:24 2023] GET /static/js/signup.js => generated 0 bytes in 18 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 1039 bytes} [Sat Aug 19 18:46:30 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81834|app: 0|req: 1/4] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 18:46:31 2023] GET /static/js/signup.js => generated 0 bytes in 22 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 2/5] 127.0.0.1 () {52 vars in 1039 bytes} [Sat Aug 19 20:15:28 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 2/6] 127.0.0.1 () {48 vars in 768 bytes} [Sat Aug 19 20:15:28 2023] GET /static/js/signup.js => generated 636 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 3/7] 127.0.0.1 () {52 vars in 1036 bytes} [Sat Aug 19 21:44:40 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 4/8] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:44:41 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 3/9] 127.0.0.1 () {48 vars in 896 bytes} [Sat Aug 19 21:45:07 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 5/10] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:45:07 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 4/11] 127.0.0.1 () {52 vars in 1036 bytes} [Sat Aug 19 21:45:31 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81835|app: 0|req: 1/12] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:45:32 2023] GET /static/js/signup.js => generated 0 bytes in 18 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 5/13] 127.0.0.1 () {52 vars in 1034 bytes} [Sat Aug 19 21:45:39 2023] GET /signup?username=shaun&email=bruikey03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81835|app: 0|req: 2/14] 127.0.0.1 () {52 vars in 879 bytes} [Sat Aug 19 21:45:39 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 6/15] 127.0.0.1 () {52 vars in 1034 bytes} [Sat Aug 19 21:46:06 2023] GET /signup?username=shaun&email=bruikey03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 7/16] 127.0.0.1 () {52 vars in 879 bytes} [Sat Aug 19 21:46:06 2023] GET /static/js/signup.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81835|app: 0|req: 3/17] 127.0.0.1 () {52 vars in 1035 bytes} [Sat Aug 19 21:46:13 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 6/18] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:46:13 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 8/19] 127.0.0.1 () {52 vars in 1035 bytes} [Sat Aug 19 21:47:11 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 9/20] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:47:11 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 7/21] 127.0.0.1 () {52 vars in 1035 bytes} [Sat Aug 19 21:47:46 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 10/22] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:47:46 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 8/23] 127.0.0.1 () {52 vars in 1035 bytes} [Sat Aug 19 21:48:27 2023] GET /signup?username=shaun&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 11/24] 127.0.0.1 () {52 vars in 880 bytes} [Sat Aug 19 21:48:27 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 12/25] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:48:39 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 9/26] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:48:40 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81835|app: 0|req: 4/27] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:49:26 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 10/28] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:49:26 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 11/29] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:49:29 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 13/30] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:49:29 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 12/31] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:49:30 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 14/32] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:49:31 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 15/33] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:50:06 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81836|app: 0|req: 13/34] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:50:06 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 16/35] 127.0.0.1 () {52 vars in 1032 bytes} [Sat Aug 19 21:50:11 2023] GET /signup?username=sha&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 17/36] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:50:11 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 81836|app: 0|req: 14/37] 127.0.0.1 () {50 vars in 760 bytes} [Sat Aug 19 21:50:31 2023] GET / => generated 881 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 18/38] 127.0.0.1 () {52 vars in 808 bytes} [Sat Aug 19 21:50:32 2023] GET /static/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 81837|app: 0|req: 19/39] 127.0.0.1 () {52 vars in 823 bytes} [Sat Aug 19 21:50:32 2023] GET /static/yuri_boi.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 81835|app: 0|req: 5/40] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 21:50:36 2023] GET /signup => generated 630 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 81837|app: 0|req: 20/41] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 21:50:36 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 21:50:43 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5597fee750b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5597fee750b0 pid: 118530 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 118530)
+spawned uWSGI worker 1 (pid: 118537, cores: 1)
+spawned uWSGI worker 2 (pid: 118538, cores: 1)
+spawned uWSGI worker 3 (pid: 118539, cores: 1)
+spawned uWSGI worker 4 (pid: 118540, cores: 1)
+spawned uWSGI worker 5 (pid: 118541, cores: 1)
+[pid: 118540|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 806 bytes} [Sat Aug 19 21:50:47 2023] GET /signup => generated 699 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 118540|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 805 bytes} [Sat Aug 19 21:50:47 2023] GET /static/js/signup.js => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 118541|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 957 bytes} [Sat Aug 19 21:50:59 2023] GET /signup?username=shu&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 118541|app: 0|req: 2/4] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:51:00 2023] GET /static/js/signup.js => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 118541|app: 0|req: 3/5] 127.0.0.1 () {52 vars in 957 bytes} [Sat Aug 19 21:51:03 2023] GET /signup?username=shu&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 118541|app: 0|req: 4/6] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:51:03 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 118541|app: 0|req: 5/7] 127.0.0.1 () {50 vars in 932 bytes} [Sat Aug 19 21:51:17 2023] GET /signup?username=shu&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 118541|app: 0|req: 6/8] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:51:17 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)

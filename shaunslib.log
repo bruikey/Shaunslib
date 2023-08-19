@@ -756,3 +756,81 @@ worker 4 buried after 1 seconds
 worker 5 buried after 1 seconds
 goodbye to uWSGI.
 VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 16:27:16 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a307e6b040
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a307e6b040 pid: 51832 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 51832)
+spawned uWSGI worker 1 (pid: 51854, cores: 1)
+spawned uWSGI worker 2 (pid: 51855, cores: 1)
+spawned uWSGI worker 3 (pid: 51856, cores: 1)
+spawned uWSGI worker 4 (pid: 51857, cores: 1)
+spawned uWSGI worker 5 (pid: 51858, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 16:28:25 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5599e68b6040
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5599e68b6040 pid: 52323 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 52323)
+spawned uWSGI worker 1 (pid: 52325, cores: 1)
+spawned uWSGI worker 2 (pid: 52326, cores: 1)
+spawned uWSGI worker 3 (pid: 52327, cores: 1)
+spawned uWSGI worker 4 (pid: 52328, cores: 1)
+spawned uWSGI worker 5 (pid: 52329, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
