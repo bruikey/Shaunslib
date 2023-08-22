@@ -14,7 +14,7 @@ def index():
 def signup():
     return render_template('signup.html')
 
-@app.route('/signup', methods=['POST'])
+@app.route('/signup', methods=['POST', 'GET'])
 def signup_send():
 
     if request.method == 'POST':
