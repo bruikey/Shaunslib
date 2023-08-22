@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
-from models import User, db
+from models import *
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://bruikey03:cigaftersex@10.160.0.5:5432/bruikey03'
 
-db.init_app(app)
+db.SQLALCHEMY(app)
 
 @app.route('/')
 def index():
@@ -18,9 +18,9 @@ def signup():
 def signup_send():
 
     if request.method == 'POST':
-        username = request.form.get('username')
-        email = request.form.get('email')
-        password = request.form.get('password')
+        username = request.form['username']
+        email = request.form['email']
+        password = request.form['password']
 
         new_user = User(username=username, email=email, password=password)
         db.session.add(new_user)
