@@ -4,7 +4,7 @@ from models import *
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://bruikey03:cigaftersex@10.160.0.5:5432/bruikey03'
 
-db.SQLALCHEMY(app)
+db.init_app(app)
 
 @app.route('/')
 def index():
