@@ -18,9 +18,9 @@ def signup():
 def signup_send():
 
     if request.method == 'POST':
-        username = request.form['username']
-        email = request.form['email']
-        password = request.form['password']
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
 
         new_user = User(username=username, email=email, password=password)
         db.session.add(new_user)
