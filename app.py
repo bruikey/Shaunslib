@@ -10,8 +10,13 @@ db.init_app(app)
 def index():
 	return render_template('index.html')
 
-@app.route('/signup', methods=['GET', 'POST'])
+@app.route('/signup')
 def signup():
+    return render_template('signup.html')
+
+@app.route('/signup', methods=['POST'])
+def signup_send():
+
     if request.method == 'POST':
         username = request.form.get('username')
         email = request.form.get('email')
@@ -21,11 +26,7 @@ def signup():
         db.session.add(new_user)
         db.session.commit()
 
-        db.create_all()
-
         return redirect(url_for('index'))
-
-    return render_template('signup.html')
 
 
 if __name__ == "__main__":
