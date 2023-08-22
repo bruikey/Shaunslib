@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from models import *
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://bruikey03:cigaftersex@10.160.0.5:5432/bruikey03'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://bruikey03:cigaftersex@34.93.154.219:5432/users'
 
 db.init_app(app)
 
