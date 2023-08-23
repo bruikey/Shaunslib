@@ -1208,6 +1208,7 @@ spawned uWSGI worker 5 (pid: 118541, cores: 1)
 [pid: 118541|app: 0|req: 5/7] 127.0.0.1 () {50 vars in 932 bytes} [Sat Aug 19 21:51:17 2023] GET /signup?username=shu&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
 [pid: 118541|app: 0|req: 6/8] 127.0.0.1 () {52 vars in 878 bytes} [Sat Aug 19 21:51:17 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
 >>>>>>> 9c8b6f047170a7229e44092483fc98443c096817
+<<<<<<< HEAD
 *** Starting uWSGI 2.0.22 (64bit) on [Sat Aug 19 22:49:08 2023] ***
 compiled with version: 11.4.0 on 18 August 2023 19:56:29
 os: Linux-5.10.0-24-cloud-amd64 #1 SMP Debian 5.10.179-5 (2023-08-08)
@@ -2197,3 +2198,52 @@ spawned uWSGI worker 5 (pid: 16782, cores: 1)
 [pid: 16782|app: 0|req: 38/84] 116.197.155.254 () {46 vars in 766 bytes} [Wed Aug 23 02:56:20 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
 [pid: 16782|app: 0|req: 39/85] 116.197.155.254 () {44 vars in 910 bytes} [Wed Aug 23 02:56:27 2023] GET /signup?username=shaun&email=bruikey03%40gmail.com&password=hddds => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
 [pid: 16782|app: 0|req: 40/86] 116.197.155.254 () {46 vars in 824 bytes} [Wed Aug 23 02:56:27 2023] GET /static/js/signup.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+=======
+*** Starting uWSGI 2.0.22 (64bit) on [Wed Aug 23 02:09:26 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5640f174c1f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5640f174c1f0 pid: 137656 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 137656)
+spawned uWSGI worker 1 (pid: 137658, cores: 1)
+spawned uWSGI worker 2 (pid: 137659, cores: 1)
+spawned uWSGI worker 3 (pid: 137660, cores: 1)
+spawned uWSGI worker 4 (pid: 137661, cores: 1)
+spawned uWSGI worker 5 (pid: 137662, cores: 1)
+[pid: 137661|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 957 bytes} [Wed Aug 23 02:09:33 2023] GET /signup?username=sda&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137662|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 878 bytes} [Wed Aug 23 02:09:33 2023] GET /static/js/signup.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 137662|app: 0|req: 2/3] 127.0.0.1 () {48 vars in 698 bytes} [Wed Aug 23 02:09:35 2023] GET /favicon.ico => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 137661|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 754 bytes} [Wed Aug 23 02:09:37 2023] GET / => generated 885 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137661|app: 0|req: 3/5] 127.0.0.1 () {52 vars in 808 bytes} [Wed Aug 23 02:09:37 2023] GET /static/style.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 137662|app: 0|req: 3/6] 127.0.0.1 () {52 vars in 823 bytes} [Wed Aug 23 02:09:37 2023] GET /static/yuri_boi.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 137662|app: 0|req: 4/7] 127.0.0.1 () {52 vars in 806 bytes} [Wed Aug 23 02:09:38 2023] GET /signup => generated 699 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137660|app: 0|req: 1/8] 127.0.0.1 () {52 vars in 805 bytes} [Wed Aug 23 02:09:38 2023] GET /static/js/signup.js => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 137662|app: 0|req: 5/9] 127.0.0.1 () {52 vars in 957 bytes} [Wed Aug 23 02:09:46 2023] GET /signup?username=shu&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137661|app: 0|req: 4/10] 127.0.0.1 () {52 vars in 878 bytes} [Wed Aug 23 02:09:46 2023] GET /static/js/signup.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 137662|app: 0|req: 6/11] 127.0.0.1 () {52 vars in 1034 bytes} [Wed Aug 23 02:28:14 2023] GET /signup?username=hgsdf&email=shauneth03%40gmail.com&password=yj*G2qQC%5DWHy%2B%5D6 => generated 699 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 137662|app: 0|req: 7/12] 127.0.0.1 () {52 vars in 880 bytes} [Wed Aug 23 02:28:14 2023] GET /static/js/signup.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+Wed Aug 23 02:28:14 2023 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/favicon.ico (ip 127.0.0.1) !!!
+Wed Aug 23 02:28:14 2023 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /static/favicon.ico (127.0.0.1)
+OSError: write error
+[pid: 137662|app: 0|req: 8/13] 127.0.0.1 () {48 vars in 787 bytes} [Wed Aug 23 02:28:14 2023] GET /static/favicon.ico => generated 0 bytes in 83 msecs (HTTP/1.1 200) 7 headers in 0 bytes (0 switches on core 0)
+>>>>>>> 00ef588a936d60c7cb05f10b74be1b2bcf34b8d5
