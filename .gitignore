@@ -161,3 +161,4 @@ cython_debug/
 yuki/
 .gitignore
 ./deploy.sh
+./uwsgi.log
