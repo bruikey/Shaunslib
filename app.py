@@ -26,12 +26,19 @@ class User(db.Model):
 def index():
 	return render_template('index.html')
 
-@app.route('/signup', methods=['POST', 'GET'])
+@app.route('/signup', methods=['POST','GET'])
 def signup():
     if request.method == 'POST':
         username = request.form['username']
         email = request.form['email']
         password = request.form['password']
+
+        with open('form_data.txt', 'w') as file:
+            file.write(f"Username: {username}\n")
+            file.write(f"Email: {email}\n")
+            file.write(f"Password: {password}\n")
+            file.write("\n")
+        
 
         new_user = User(username, email, password)
         db.session.add(new_user)
