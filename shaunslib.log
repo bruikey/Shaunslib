@@ -936,3 +936,55 @@ worker 4 buried after 2 seconds
 worker 5 buried after 2 seconds
 goodbye to uWSGI.
 VACUUM: unix socket /home/shaunslib/app.sock removed.
+*** Starting uWSGI 2.0.22 (64bit) on [Thu Aug 24 20:47:13 2023] ***
+compiled with version: 11.3.0 on 31 July 2023 19:56:38
+os: Linux-6.4.6-76060406-generic #202307241739~1690928105~22.04~d567a38 SMP PREEMPT_DYNAMIC Tue A
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/shaunslib
+detected binary path: /home/shaun0_03/.local/bin/uwsgi
+your processes number limit is 46894
+your memory page size is 4096 bytes
+detected max file descriptor number: 8192
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/shaunslib/app.sock fd 3
+Python version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56152cfe9030
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56152cfe9030 pid: 125639 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 125639)
+spawned uWSGI worker 1 (pid: 125640, cores: 1)
+spawned uWSGI worker 2 (pid: 125641, cores: 1)
+spawned uWSGI worker 3 (pid: 125642, cores: 1)
+spawned uWSGI worker 4 (pid: 125643, cores: 1)
+spawned uWSGI worker 5 (pid: 125644, cores: 1)
+[pid: 125642|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 806 bytes} [Thu Aug 24 20:47:33 2023] GET /signup => generated 153 bytes in 6 msecs (HTTP/1.1 405) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 125644|app: 0|req: 1/2] 127.0.0.1 () {52 vars in 806 bytes} [Thu Aug 24 20:47:34 2023] GET /signup => generated 153 bytes in 6 msecs (HTTP/1.1 405) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 125644|app: 0|req: 2/3] 127.0.0.1 () {52 vars in 806 bytes} [Thu Aug 24 20:47:34 2023] GET /signup => generated 153 bytes in 0 msecs (HTTP/1.1 405) 3 headers in 118 bytes (1 switches on core 0)
+[pid: 125642|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 754 bytes} [Thu Aug 24 20:47:37 2023] GET / => generated 885 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 125643|app: 0|req: 1/5] 127.0.0.1 () {52 vars in 808 bytes} [Thu Aug 24 20:47:37 2023] GET /static/style.css => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 125644|app: 0|req: 3/6] 127.0.0.1 () {52 vars in 823 bytes} [Thu Aug 24 20:47:37 2023] GET /static/yuri_boi.png => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 189 bytes (0 switches on core 0)
+[pid: 125644|app: 0|req: 4/7] 127.0.0.1 () {52 vars in 806 bytes} [Thu Aug 24 20:47:38 2023] GET /signup => generated 153 bytes in 0 msecs (HTTP/1.1 405) 3 headers in 118 bytes (1 switches on core 0)
+Thu Aug 24 20:47:47 2023 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Thu Aug 24 20:47:47 2023 - *** worker 1 suspended ***
+Thu Aug 24 20:47:47 2023 - *** worker 3 suspended ***
+Thu Aug 24 20:47:47 2023 - *** worker 2 suspended ***
+Thu Aug 24 20:47:47 2023 - *** worker 4 suspended ***
+Thu Aug 24 20:47:47 2023 - *** worker 5 suspended ***
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/shaunslib/app.sock removed.
