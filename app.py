@@ -1,8 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
+from dotenv import load_dotenv
+from os import environ
 from flask_sqlalchemy import SQLAlchemy
 
+load_dotenv()
+
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://bruikey03:cigaftersex@34.93.154.219:5432/users"
+app.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://{environ['DB_USERNAME']}:{environ['DB_PASSWORD']}@{environ['DB_HOST']}:{environ['DB_PORT']}/{environ['DB_NAME']}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
