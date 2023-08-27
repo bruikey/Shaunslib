@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 from dotenv import load_dotenv
 from os import environ
 from flask_sqlalchemy import SQLAlchemy
@@ -26,9 +26,29 @@ class User(db.Model):
         self.password = password
 
 
-@app.route('/')
+@app.route('/', methods=['POST','GET'])
 def index():
-	return render_template('index.html')
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+
+        user = User.query.filter_by(username=username).first()
+
+        if user and user.password == password:
+            return redirect(url_for('loggedin'))
+        else:
+            return render_template('index.html', error="Invalid credentials")
+
+    return render_template('index.html')
+    
+@app.route('/registered')
+def registered():
+    return render_template('registered.html')
+
+@app.route('/loggedin')
+def loggedin():
+        return render_template('loggedin.html')
+
 
 @app.route('/signup', methods=['POST','GET'])
 def signup():
@@ -48,7 +68,7 @@ def signup():
         db.session.add(new_user)
         db.session.commit()
      
-        return redirect(url_for('index'))
+        return redirect(url_for('registered'))
     return render_template('signup.html')
     
 if __name__ == "__main__":
