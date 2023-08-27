@@ -162,4 +162,4 @@ yuki/
 .gitignore
 ./deploy.sh
 ./uwsgi.log
-./form_data.txt
+form_data.txt
