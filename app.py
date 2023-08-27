@@ -26,20 +26,23 @@ class User(db.Model):
         self.password = password
 
 
-@app.route('/', methods=['POST','GET'])
+@app.route('/')
 def index():
-    if request.method == 'POST':
-        username = request.form.get('username')
-        password = request.form.get('password')
-
-        user = User.query.filter_by(username=username).first()
-
-        if user and user.password == password:
-            return redirect(url_for('loggedin'))
-        else:
-            return render_template('index.html', error="Invalid credentials")
-
     return render_template('index.html')
+
+@app.route('/login')
+def login():
+    username = request.form['username']
+    password = request.form['password']
+
+    user = User.query.filter_by(username=username, password=password).first()
+
+    if user:
+        # Authentication successful
+        return {'success': True}
+    else:
+        # Authentication failed
+        return {'success': False}
     
 @app.route('/registered')
 def registered():
