@@ -40,7 +40,7 @@ def login():
 
         if user:
             # Authentication successful
-            return {'success': True}
+            return redirect(url_for('loggedin'))
         else:
             # Authentication failed
             return {'success': False}
