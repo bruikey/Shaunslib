@@ -164,3 +164,4 @@ yuki/
 ./uwsgi.log
 form_data.txt
 git.sh
+git.py
