@@ -30,19 +30,23 @@ class User(db.Model):
 def index():
     return render_template('index.html')
 
-@app.route('/login')
+@app.route('/login', methods=['POST', 'GET'])
 def login():
-    username = request.form['username']
-    password = request.form['password']
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
 
-    user = User.query.filter_by(username=username, password=password).first()
+        user = User.query.filter_by(username=username, password=password).first()
 
-    if user:
-        # Authentication successful
-        return {'success': True}
+        if user:
+            # Authentication successful
+            return {'success': True}
+        else:
+            # Authentication failed
+            return {'success': False}
     else:
-        # Authentication failed
-        return {'success': False}
+        return render_template('login.html')
+        
     
 @app.route('/registered')
 def registered():
